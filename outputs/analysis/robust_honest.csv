@@ -1,0 +1,5 @@
+check,group,outcome,est,se,p,ci_lo,ci_hi,n_obs,n_clusters,note
+Sun and Abraham,,ln_pm25,0.005907460482564655,0.014654826568894302,0.6868696463339514,-0.02281599959246818,0.03463092055759749,,328.0,"never-designated comparison, year -1 reference"
+Rambachan and Roth breakdown,,ln_pm25,0.005907460482564655,,,,,,,largest relative magnitude Mbar with zero outside the set: nan
+Sun and Abraham,,ln_no2,-0.03383984797214426,0.007605776554516725,8.617875691240848e-06,-0.04874717001899704,-0.01893252592529148,,328.0,"never-designated comparison, year -1 reference"
+Rambachan and Roth breakdown,,ln_no2,-0.03383984797214427,,,,,,,largest relative magnitude Mbar with zero outside the set: 0.110

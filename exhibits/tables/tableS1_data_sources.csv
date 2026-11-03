@@ -1,0 +1,11 @@
+Variable,Source,Grid,Years,Use
+Smart city designation,"Official programme lists of 17 economies, compiled for this study",District,2017 to 2024,Treatment
+District boundaries,"geoBoundaries gbOpen ADM1 and ADM2 (ADM3 in the Philippines); OpenStreetMap (Hong Kong, Macau, South Korea)",,,Units and clusters
+Population and urban centres,GHS-POP and GHS-SMOD R2023A,3 arc-seconds; 1 km,2015,"Weights, urban districts, size groups"
+PM2.5,"ACAG V6.GL.03 (Shen et al., 2024)",0.01 degree,1998 to 2024 annual; 2005 to 2024 monthly,Outcome
+NO2,"ACAG SatNO2 V4.GL.01 (Yan et al., 2026)",0.01 degree,2005 to 2024 monthly,Outcome
+Weather,"TerraClimate monthly temperature, precipitation and wind (Abatzoglou et al., 2018)",1/24 degree,2005 to 2024,Covariates
+Fire detections,NASA FIRMS MODIS Collection 6.1,1 km,2005 to 2024,Covariates
+Night-time light,"Harmonised DMSP and VIIRS series, version 10 (Li et al., 2020)",30 arc-seconds,2005 to 2024,"RQ2 outcome, synthetic control predictor"
+Built-up area,GHS-BUILT-S R2023A,30 arc-seconds,2015,Synthetic control predictor
+Income group,World Bank historical income classifications,Economy,2017 to 2024,Heterogeneity

@@ -1,0 +1,9 @@
+Panel,,Treated first-level units,PM2.5,NO2
+"Panel A. Programme model, pooled panel (RQ3)",Implementation support,78,−0.47 (−2.58 to 1.68) [0.663],−10.99 (−14.00 to −7.87) [< 0.001]
+"Panel A. Programme model, pooled panel (RQ3)",Certification,44,−0.67 (−1.91 to 0.59) [0.299],3.01 (0.82 to 5.24) [0.007]
+"Panel A. Programme model, pooled panel (RQ3)",Network membership,22,3.74 (−2.29 to 10.14) [0.313],−9.57 (−13.06 to −5.95) [0.001]
+"Panel A. Programme model, pooled panel (RQ3)","Wald test of equal effects, p",,0.432,< 0.001
+Panel B. Focal economies,Japan,39,−1.27 (−2.51 to −0.02) [0.046],3.44 (1.71 to 5.20) [< 0.001]
+Panel B. Focal economies,Thailand,18,3.93 (2.54 to 5.34) [0.034],−10.36 (−12.75 to −7.90) [0.056]
+Panel B. Focal economies,"Singapore, augmented synthetic control",1,−12.92 [0.931],−0.81 [0.976]
+Panel B. Focal economies,"Hong Kong, augmented synthetic control",1,−20.68 [0.456],8.71 [0.817]

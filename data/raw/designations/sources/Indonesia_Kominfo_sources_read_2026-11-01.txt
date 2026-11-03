@@ -1,0 +1,114 @@
+Sources for indonesia_kominfo_smart_city.csv, read 1 Nov 2026. Built by scripts/designations/06_indonesia_kominfo.py.
+Passages are copied from the page text after NFKC normalisation. The script parses every roster from the saved text and
+stops if any list differs from its province table, so the lists below are the ones coded.
+
+Access: komdigi.go.id (formerly kominfo.go.id) refused direct downloads, so its articles were read in a browser from the
+JSON feed the site's own pages load, and the passages used are in indonesia_saved/komdigi_api_extract_2026-11-01.txt.
+aptika.kominfo.go.id no longer resolves; its two pages are Wayback Machine copies. Other pages were saved as html with a
+txt copy (totxt_helper.py). Not saved: banjarkota.go.id (behind a Cloudflare check), the suarapemerintah.id pages (the
+Wayback copies were interstitial pages) and taburapos.co; these are cited from search results only and code nothing on
+their own. tribun_2019.html is a 403 page and is not used. Licences of the saved news pages (Antara forbids crawling for
+AI training) are to be checked before any raw file is pushed.
+
+Programme: Gerakan Menuju (100) Smart City, Kominfo Ditjen Aptika, with the Home Affairs and Public Works ministries,
+Bappenas and the Presidential Staff Office (Siaran Pers 223/2017). Places sign an MoU and are guided to a ten-year smart
+city master plan and quick wins; no direct transfer was found. Coded as implementation support.
+
+[1] 2017 MoU list. https://www.komdigi.go.id/berita/sorotan-media/gerakan-menuju-100-smart-city-diawali-dari-makassar
+(komdigi extract)
+"Seremoni peluncuran program ini dilaksanakan ... di Hotel Four Points by Sheraton, Makassar, pada hari Senin - Selasa,
+22 - 23 Mei 2017."
+"penandatanganan MoU (Memorandum of Understanding) antara perwakilan Pemerintah Pusat dengan 25 pemimpin daerah yang
+terpilih sebagai peserta tahap pertama."
+List of 13 kota and 12 kabupaten, given in full in the extract (Kota Semarang ... Kabupaten Banyuwangi).
+
+[2] 2017 award list. https://www.komdigi.go.id/berita/sorotan-media/langkah-menuju-100-smart-city (komdigi extract,
+a repost of neraca.co.id/article/93533)
+"24 Kabupaten/Kota Penerima Penghargaan Gerakan Menuju 100 Smart City 2017", numbered 1 to 24 with the spellings
+"3. Kabupaten Lombok timur", "14. Kota Pelalawan", "15. Kabupatet Banyuasin", "21. Kota Kabupaten Mimika".
+Siaran Pers 223/2017 (komdigi extract): "Jakarta, 15 November 2017 - Dua puluh empat kota/kabupaten yang terpilih di
+tahap pertama Gerakan Menuju 100 Smart City telah berhasil menyusun smart city masterplan."
+
+[3] 2018 MoU list. https://inet.detik.com/cyberlife/d-4011124/ini-50-calon-smart-city-di-indonesia-salah-satunya-depok
+(saved as detik_2018-05-08.html)
+"Selasa, 08 Mei 2018 17:58 WIB"; "acara Gerakan Menuju 100 Smart City di Redtop Hotel, Jakarta, Selasa (8/5/2018)."
+Numbered list 1 to 50, with "21. Kota Probolinggi", "23. Kota Pelembang", "46. Kabupaten Musin Banyuasing".
+Komdigi news item of 8 May 2018 (berita-komdigi/50-kota-dan-kabupaten-ikuti-gerakan-menuju-100-smart-city-tahap-ii):
+"Sebanyak 50 walikota dan bupati di Indonesia menandatangani Nota Kesepahaman"; it dates the signing "Selasa
+(07/05/2018)", but 7 May 2018 was a Monday, so detik's 8 May is coded.
+
+[4] 2018 award list. https://www.komdigi.go.id/berita/berita-komdigi/smartcity-cara-pemerintah-layani-masyarakat-lebih-baik
+(komdigi extract)
+"50 wakil pemerintah kota dan kabupaten yang akan menerima penghargaan ... di ICE BSD, Tangerang, Jumat (14/12/2018)".
+Comma list of 50, with "Kota Mataran".
+
+[5] 2019 round. Siaran Pers 100/2019, 15 May 2019 (komdigi extract): "Selama dua tahun, telah dilaksanakan di 75
+kabupaten dan kota. Tahun ini, akan berlangsung di 25 kabupaten dan kota."
+Antara, https://www.antaranews.com/berita/870612/25-kota-dapat-pendampingan-menuju-smart-city (antara_2019.html):
+"Rabu, 15 Mei 2019"; "Kota Ambon terpilih dalam 100 Smart City melalui proses seleksi tahap ketiga yang dilakukan pada
+tahun 2019".
+Award list: https://aptika.kominfo.go.id/2019/11/gerakan-menuju-100-smart-city-langkah-awal-wujudkan-digital-nation/
+(Wayback copy, aptika_2019-11.html), dated 8 November 2019: "Pemberian penghargaan Gerakan Menuju 100 Smartcity tahun
+2019 diberikan kepada 25 kota / kabupaten", one name per line (Kota Banda Aceh ... Kabupaten Padang Pariaman).
+
+[6] 2021 round. Siaran Pers 176/2021 (komdigi extract): "penandatanganan Nota Kesepahaman antara Dirjen Aplikasi
+Informatika dengan 48 bupati dan walikota dari Kawasan Pariwisata Prioritas Nasional (KPPN) dan Kawasan Ibu Kota Negara
+(IKN) Baru, yang berlangsung virtual"; "Kamis (20/05/2021)".
+Siaran Pers 486/2021: "Pada tahun 2021, total terdapat 48 Kabupaten/Kota yang mengikuti program smart city, di mana 7 di
+antaranya merupakan Kabupaten/Kota yang sebelumnya sudah pernah mengikuti program"; "secara total ... 141 Kota/Kabupaten".
+Roster: https://aptika.kominfo.go.id/2022/07/gerakan-menuju-100-smart-city-2/ (Wayback copy, aptika_2022-07.html),
+table 2, the 48 rows with kategori "Masterplan Smart City 2021".
+
+[7] 2022 round. Siaran Pers 149/2022 (komdigi extract): "Penandatanganan Nota Kesepakatan ... dengan Pemerintah Kabupaten
+dan Kota Peserta Gerakan Menuju Smart City 2022, yang berlangsung virtual dari Jakarta Pusat, Kamis (21/04/2022)";
+"terdapat total 141 kabupaten kota"; "sudah sebanyak 191 pemerintah kabupaten dan kota". Siaran Pers 151/2022 names the
+same signing with 50 regents and mayors.
+Roster: Selular.ID, 1 December 2022, https://selular.id/2022/12/gerakan-menuju-smart-city-2022-berhasil-jangkau-50-kota/
+page 2 (selular_2022_p2.html), numbered 1 to 50, with "5. Payakumbuh".
+
+[8] 2023 round. InfoPublik, https://infopublik.id/kategori/nusantara/716763/implementasi-smart-city-pemkab-agam-
+kementerian-kominfo-ri-teken-mou (infopublik_agam_2023.html): "Selasa, 28 Februari 2023"; the MoU "dilaksanakan secara
+virtual ... Selasa (28/2)" by Agam "bersama 50 kepala daerah lainnya"; in 2022 the ministry assessed "8 provinsi dan 88
+kabupaten/kota" and chose "2 provinsi dan 50 kabupaten/kota".
+Antara Kalsel, https://kalsel.antaranews.com/berita/362289/kementerian-kominfo-berikan-pendampingan-hss-susun-masterplan-
+smart-city (antara_kalsel_hss_2023.html): Hulu Sungai Selatan joined the virtual signing "Selasa (28/2/2023)".
+Roster: TangerangNews, 7 December 2023, https://www.tangerangnews.com/nasional/read/47476/50-Kota-dan-Kabupaten-Raih-
+Penghargaan-Gerakan-Menuju-Smart-City-2023-Ini-Daftarnya (tangerangnews_2023.html), numbered 1 to 50.
+Selular.ID, 7 December 2023, https://selular.id/2023/12/sebanyak-50-kota-berhasil-menyusun-rencana-pembangunan-kota-cerdas/
+(selular_2023.html): "Dalam periode 2017-2023, gerakan ini sudah berhasil membimbing 241 kota dan kabupaten".
+Siaran Pers 549/2023 (komdigi extract), Kamis 7 Desember 2023: "Kota Sabang ..., Kota Nunukan ..., sampai Kabupaten Boven
+digoel".
+Search results only: suarapemerintah.id (Metro, March 2023; Jayapura regency, August 2022) cite selection letter
+B-349/DJAI/AI.01.02/06/2022 of June 2022; taburapos.co (18 Oct 2023) says Manokwari's MoU for 2023 was signed in 2022.
+
+[9] 2024 round. Tanah Bumbu regency, https://mc.tanahbumbukab.go.id/pemkab-tanbu-dan-kementerian-kominfo-tandatangani-
+nota-kesepakatan-smart-city/ (tanahbumbu_2024.html): "10 Kabupaten/Kota terpilih Tahun 2024"; "Selasa (5/3/2024)";
+"Adapun 10 Kabupaten/Kota terpilih tersebut yakni Kabupaten Tanah Bumbu, Bangli, Bone Bolanga, Gianyar, Pekalongan,
+Purbalingga, Serang." "Sedangkan untuk kota yakni Banjar, Parepare, dan Solok."
+Pekalongan regency, https://dinkominfo.pekalongankab.go.id/index.php/publikasi/berita/332-penandatanganan-nota-
+kesepakatan-implementasi-gerakan-menuju-smart-city-oleh-pemerintah-kabupaten-pekalongan-dengan-ditjen-aptika-
+kemenkominfo (pekalongankab_2024.html), 05 Maret 2024: "diikuti oleh 10 Kabupaten/Kota seluruh Indonesia yang telah
+terpilih melalui proses penilaian yang dilaksanakan pada Tahun 2023."
+Siaran Pers 43/2024 (komdigi extract): "pada 2024 terdapat 10 pemerintah daerah yang akan didampingi".
+
+Coding notes:
+- One row per place per round (262 rows, 251 places). The treatment table later takes each place's earliest year.
+- Date is the MoU signing. First treated year is that year if the month is June or earlier, otherwise the next year.
+  2019 has no MoU date found; 15 May 2019 is the latest date by which the round was under way, so it codes 2019.
+- 2017 and 2018 have both an MoU list and an award list, and they differ. Places on both are coded to the MoU date.
+  Places on the MoU list only (2017 Singkawang, Purwakarta; 2018 Banyumas, Depok, Kudus) keep the MoU date and are
+  flagged "roster: mou only"; a sensitivity check drops them. Places on the award list only (2017 Lombok Timur; 2018
+  Padang Panjang, Kota Pekalongan, Kabupaten Cirebon) take the award date, so their first treated year is the next year.
+- Other rounds have a single list: an award or completion list for 2019 and 2021 to 2023, the MoU list for 2024.
+- The ministry's counts are slot counts. 25 + 50 + 25 = 100 to 2019; 48 in 2021 with 7 repeats gives 141; 2022 adds 50
+  (191) and 2023 adds 50 (241). The script checks each step. Under the award lists 99 distinct places joined to 2019,
+  under the MoU lists 98. The 7 repeats of 2021 are named by matching the earlier award lists: Jepara, Lombok Timur,
+  Kutai Kartanegara, Sleman, Kota Semarang, Kota Mataram, Kabupaten Pasuruan. Kudus (2018 MoU only) also returns in 2021
+  and Singkawang (2017 MoU only) in 2022. 2022, 2023 and 2024 repeat no earlier award-list place.
+- 2023 is coded to the 28 Feb 2023 signing. The June 2022 selection letters and the Tabura Pos report give 2022, which
+  is a sensitivity check.
+- Spellings corrected (as printed in place_as_printed or the note): Probolinggi, Pelembang, Musin Banyuasing, Mataran,
+  "Kota Pelalawan", "Kabupatet Banyuasin", "Kota Kabupaten Mimika", "Lombok timur", "Payakumbuh" (no Kota), "Bone Bolanga".
+- Provinces were added by hand as at the announcement date (Mimika in Papua, Raja Ampat in West Papua before the 2022
+  split; Boven Digoel in South Papua by 2023). Toba Samosir was renamed Toba in 2020; the 2021 list prints the old name.
+  All are checked against the boundary file when units are linked.

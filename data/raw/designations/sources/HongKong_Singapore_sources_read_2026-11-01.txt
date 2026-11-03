@@ -1,0 +1,49 @@
+Sources for hongkong_singapore_smart_city.csv, read 1 Nov 2026. Built by scripts/designations/10_hongkong_singapore.py,
+which checks every passage below against the saved text (hongkong_saved/*.txt, singapore_saved/*.txt, made from the html
+saved the same day). Each city-state is one unit, so these rows date a whole-city treatment.
+
+Singapore
+[1] Ministry of Digital Development and Information (MDDI), "Transcript of Speech By Prime Minister Lee Hsien Loong At
+Smart Nation Launch", "24 Nov 2014", https://www.mddi.gov.sg/newsroom/smart-nation-launch/ (saved as
+mddi_smart-nation-launch.html): "At this year’s National Day Rally, I spoke on how we can use technology to make a
+difference to our people’s lives, and to build a Smart Nation."; "Therefore our vision is for Singapore to be a Smart
+Nation"; "We will set up a Smart Nation Programme Office."
+[2] Prime Minister's Office, National Day Rally 2014 photo page, https://www.pmo.gov.sg/Photos/national-day-rally-2014?page=1
+(saved as pmo_national-day-rally-2014_photos.html): "Prime Minister Lee Hsien Loong’s National Day Rally Speech took place
+on 17 August 2014, at ITE Headquarters & College Central."
+
+Hong Kong
+[3] Information Services Department (ISD), "Blueprint sets out plans to build smart Hong Kong (with photo)", "Ends/Friday,
+December 15, 2017", https://www.info.gov.hk/gia/general/201712/15/P2017121400746.htm (saved as isd_P2017121400746.htm):
+"The Government released today (December 15) the Smart City Blueprint for Hong Kong with a vision to build Hong Kong into
+a world-class smart city." The six areas include "Smart Environment".
+[4] ISD, "Opening remarks by S for IT at press conference on Smart City Blueprint for Hong Kong", 15 Dec 2017,
+https://www.info.gov.hk/gia/general/201712/15/P2017121500481.htm (saved as isd_P2017121500481.htm): "The Smart City
+Blueprint for Hong Kong released today was endorsed by the Steering Committee at this meeting."
+[5] ISD, "Government releases Smart City Blueprint for Hong Kong 2.0", 10 Dec 2020,
+https://www.info.gov.hk/gia/general/202012/10/P2020121000626.htm (saved as isd_P2020121000626.htm): "The Government
+published in December 2017 the Smart City Blueprint for Hong Kong (Blueprint), setting out 76 initiatives under six smart
+areas".
+[6] 2015 Policy Address, paragraph 50, https://www.policyaddress.gov.hk/2015/eng/p48.html (saved as
+policy_address_2015_p48.html; index page saved as policy_address_2015_index.html): "50. We intend to use Kowloon East as a
+pilot area to explore the feasibility of developing a Smart City."
+[7] ISD, "Policy Address available to public on Wednesday", "Ends/Monday, January 12, 2015",
+https://www.info.gov.hk/gia/general/201501/12/P201501120556.htm (saved as isd_P201501120556.htm): "The Chief Executive,
+Mr C Y Leung, will deliver his 2015 Policy Address in the Legislative Council at 11am on Wednesday (January 14)."
+[8] ISD, "Stage 1 Public Engagement for Kowloon East smart city study launched", 7 Nov 2016,
+https://www.info.gov.hk/gia/general/201611/07/P2016110700326.htm (saved as isd_P2016110700326.htm): "In the 2015 Policy
+Address, the Government announced that Kowloon East would be used as a pilot area to explore the feasibility of
+developing a smart city."
+
+Coding notes:
+- programme_model is "whole-city strategy" for the city-states. They are estimated with augmented synthetic control and
+  synthetic difference-in-differences (design section 6.3), not in the pooled comparison of programme models.
+- Singapore: Smart Nation launch, 24 Nov 2014, first treated 2015. The vision was first set out at the National Day Rally
+  of 17 Aug 2014, which also gives 2015, so the coding does not depend on which date is used. Singapore's ASEAN Smart
+  Cities Network membership (2018, ascn.csv) comes later and does not change the first treated year.
+- Hong Kong, main specification: Blueprint released 15 Dec 2017, first treated 2018. Blueprint 2.0 (10 Dec 2020) continues
+  the Blueprint and is not coded as a new designation.
+- Hong Kong, sensitivity check: the Kowloon East pilot area (2015 Policy Address, delivered 14 Jan 2015) moves the first
+  treated year to 2015. It is a pilot area inside one district, announced to explore feasibility; the feasibility study's
+  public engagement began on 7 Nov 2016. Under the main coding, 2015 to 2017 count as pre-treatment years, so this check
+  shows whether that partial exposure moves the Hong Kong estimate.

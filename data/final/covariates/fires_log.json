@@ -1,0 +1,159 @@
+{
+  "source": "NASA FIRMS MODIS C6.1 yearly all-countries archive",
+  "confidence_min": 30,
+  "type": 0,
+  "grid_step_degree": 0.05,
+  "region": [
+    85.0,
+    152.0,
+    -16.0,
+    56.0
+  ],
+  "detections": {
+    "2005": {
+      "in_region": 562150,
+      "duplicates": 0,
+      "counted": 513898
+    },
+    "2006": {
+      "in_region": 623880,
+      "duplicates": 0,
+      "counted": 574781
+    },
+    "2007": {
+      "in_region": 620770,
+      "duplicates": 0,
+      "counted": 579490
+    },
+    "2008": {
+      "in_region": 601908,
+      "duplicates": 0,
+      "counted": 559207
+    },
+    "2009": {
+      "in_region": 622040,
+      "duplicates": 0,
+      "counted": 577039
+    },
+    "2010": {
+      "in_region": 508812,
+      "duplicates": 0,
+      "counted": 468182
+    },
+    "2011": {
+      "in_region": 552057,
+      "duplicates": 0,
+      "counted": 505538
+    },
+    "2012": {
+      "in_region": 656499,
+      "duplicates": 0,
+      "counted": 603203
+    },
+    "2013": {
+      "in_region": 520512,
+      "duplicates": 0,
+      "counted": 471878
+    },
+    "2014": {
+      "in_region": 732878,
+      "duplicates": 0,
+      "counted": 668347
+    },
+    "2015": {
+      "in_region": 804595,
+      "duplicates": 0,
+      "counted": 724160
+    },
+    "2016": {
+      "in_region": 495097,
+      "duplicates": 0,
+      "counted": 454023
+    },
+    "2017": {
+      "in_region": 415149,
+      "duplicates": 0,
+      "counted": 379587
+    },
+    "2018": {
+      "in_region": 466876,
+      "duplicates": 0,
+      "counted": 406985
+    },
+    "2019": {
+      "in_region": 562905,
+      "duplicates": 0,
+      "counted": 498583
+    },
+    "2020": {
+      "in_region": 428472,
+      "duplicates": 0,
+      "counted": 375383
+    },
+    "2021": {
+      "in_region": 395882,
+      "duplicates": 0,
+      "counted": 346338
+    },
+    "2022": {
+      "in_region": 316887,
+      "duplicates": 0,
+      "counted": 270092
+    },
+    "2023": {
+      "in_region": 525230,
+      "duplicates": 0,
+      "counted": 463487
+    },
+    "2024": {
+      "in_region": 481475,
+      "duplicates": 0,
+      "counted": 421336
+    }
+  },
+  "cells_within_100km": {
+    "min": 1029,
+    "median": 1333.0
+  },
+  "cells_within_300km": {
+    "min": 9232,
+    "median": 10696.0
+  },
+  "cells_within_500km": {
+    "min": 25620,
+    "median": 28546.0
+  },
+  "units": 2259,
+  "summary": {
+    "fire_100km": {
+      "count": 45180.0,
+      "mean": 742.1,
+      "std": 1666.9,
+      "min": 0.0,
+      "25%": 91.0,
+      "50%": 190.0,
+      "75%": 700.0,
+      "max": 25582.0
+    },
+    "fire_300km": {
+      "count": 45180.0,
+      "mean": 5180.0,
+      "std": 8947.8,
+      "min": 0.0,
+      "25%": 390.0,
+      "50%": 872.0,
+      "75%": 6615.0,
+      "max": 90761.0
+    },
+    "fire_500km": {
+      "count": 45180.0,
+      "mean": 12942.4,
+      "std": 20641.1,
+      "min": 0.0,
+      "25%": 753.0,
+      "50%": 2288.0,
+      "75%": 20866.2,
+      "max": 162021.0
+    }
+  }
+}

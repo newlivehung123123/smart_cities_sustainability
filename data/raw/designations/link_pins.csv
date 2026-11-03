@@ -1,0 +1,78 @@
+economy,place_en,project_id,query,flag,reason
+Japan,"Asahikawa, Hokkaido",,旭川市,,gbOpen spells the unit Aashikawa
+Japan,"Mitoyo, Kagawa",,三豊市,,gbOpen keeps the suffix (Mitoyoshi)
+Japan,"Esashi, Hokkaido",,江差町,,two Esashi towns in Hokkaido; printed 北海道江差町
+Japan,"Toshima, Tokyo",,豊島区,,Toshima ward and Toshima village are both in Tokyo; printed 東京都豊島区
+Japan,"Tosa, Kochi",,土佐町,,Tosa city and Tosa town are both in Kochi; printed 高知県土佐町
+Japan,"Saitama, Saitama",,さいたま市,,gbOpen adds a 0.2 km2 sliver of the city as a separate unit
+Korea,Hanshin University,,부천시,part,area printed 부천시
+Korea,Anyang University,,안양시,part,area printed 안양시
+Korea,Yonsei University,,신촌역 | 연세대학교,part,area printed 신촌역 상권 (Sinchon station commercial area)
+Korea,Korea National University of Transportation,,충주시,part,area printed 캠퍼스 (campus not named; the main campus is in Chungju)
+Korea,Keimyung University,,달서구,part,area printed 대구 성서지역과 월배지역 (both in Dalseo-gu)
+Korea,Sungshin Women's University,,성북구,part,area printed 서울 성북구 전통시장
+Korea,Dong-A University,,사하구청,part,area printed 공공청사(사하구청)
+Korea,Kongju National University,,공주대학교,part,no area printed; the main campus
+Korea,Chungcheongbuk-do,,진천군 | 음성군 | 오송읍 | 오창읍,part,area printed 충북혁신도시 (Jincheon and Eumseong) 오송 오창 (Cheongju)
+Korea,Busan,KRNPC2018-2,부산 강서구,part,area printed 에코델타시티 (Eco Delta City lies in Gangseo-gu)
+Korea,Daejeon,KRSC2019-C5,대전 동구,part,area printed 중앙시장 일원 (Daejeon Jungang Market lies in Dong-gu)
+Korea,Incheon,KRSC2019-C6,영종도,part,area printed 영종국제도시 (Yeongjong Island)
+Korea,Busan,KRSC2021-M1,부산 동구,part,area printed 동구를 중심으로
+Thailand,Lampang Province,TH2021-1-03,อำเภอแม่เมาะ,part,area printed แม่เมาะ
+Thailand,Rayong Province,TH2021-1-04,อำเภอวังจันทร์,part,area printed วังจันทร์วัลเลย์ (Wangchan Valley)
+Thailand,Bangkok,TH2021-1-05,units=Pathum Wan,part,area printed สามย่าน (the Chulalongkorn University property area in Wang Mai subdistrict)
+Thailand,Bangkok,TH2021-2-01,line=ถนนพระรามที่ 4,part,area printed ย่านพระราม 4 (the Rama IV Road corridor)
+Thailand,Bangkok,TH2021-2-02,line=คลองผดุงกรุงเกษม,part,area printed พื้นที่โดยรอบคลองผดุงกรุงเกษม (along the canal)
+Thailand,Bangkok,TH2021-2-03,มักกะสัน,part,area printed มักกะสัน
+Thailand,Chiang Mai Province,TH2021-2-05,มหาวิทยาลัยเชียงใหม่,part,area printed มหาวิทยาลัยเชียงใหม่
+Thailand,Phuket Province,TH2025-5-01,units=Mueang Phuket,part,"area printed ทินิคอนวัลเลย์, 2.0848 km2 in Wichit subdistrict, Mueang Phuket (Phuket_Tinicon_Valley_2025.pdf pp. 6, 16); the name is not in Nominatim"
+Thailand,Khon Kaen Province,TH2021-1-01,units=Mueang Khon Kaen,part,"no area printed; the summary names Khon Kaen city municipality as lead and its services (5_KHON_KAEN_SMART_CITY.pdf pp. 3, 7)"
+Thailand,Phuket Province,TH2021-1-02,cluster=Phuket,part,"no area printed; services named in all three districts: the city and Wichit municipalities (Mueang Phuket), Patong and Kathu (Kathu), the light rail from the airport (Thalang) (13_Phuket_Smart_City.pdf pp. 5 to 9)"
+Thailand,Trang Province,TH2021-2-06,units=Mueang Trang,part,"first phase in three municipalities, 37.81 km2; the two named, Trang city and Khok Lo, lie in Mueang Trang (14_Sri_Trang_City.pdf pp. 1, 6)"
+Thailand,Chachoengsao Province,TH2021-2-08,cluster=Chachoengsao,,"area printed 5,351 km2 with 720,698 people, the whole province (10_Chachoengsao_Livable_City.pdf p. 1)"
+Thailand,Nakhon Sawan Province,TH2021-2-10,units=Mueang Nakhon Sawan,part,"proposed by Nakhon Sawan city municipality, 27.87 km2 in Mueang district (4_NAKHONSAWAN_SMART_CITY.pdf p. 1)"
+Thailand,Lampang Province,TH2023-4-01,units=Mueang Lampang;Ko Kha;Hang Chat;Chae Hom;Soem Ngam,,"pilot in five districts printed by name, 4,015 km2 (31_Executive_summary_Lamphang.pdf pp. 1, 18)"
+Thailand,Samut Prakan Province,TH2023-4-02,cluster=Samut Prakan,,"area printed as the whole province, 1,004.092 km2 (32_Executive_and_Solution_Samutprakarn.pdf pp. 1, 12)"
+Thailand,"Saen Suk town municipality, Chon Buri",,เทศบาลเมืองแสนสุข,part,municipality inside one district
+Thailand,"Khao Khan Song subdistrict administrative organisation, Si Racha district, Chon Buri",,ตำบลเขาคันทรง,part,subdistrict inside one district
+Thailand,"Thepparat subdistrict municipality, Chachoengsao",,ตำบลเทพราช,part,municipality inside one district
+Thailand,"Nikhom Phatthana subdistrict municipality, Rayong",,units=Nikhom Phatthana,part,municipality in the district of the same name (not found by Nominatim)
+Thailand,"Buak Khang subdistrict municipality, Chiang Mai",,ตำบลบวกค้าง,part,municipality inside one district
+Malaysia,Kajang Municipal Council,,Kajang,part,council area inside a district
+Malaysia,Ipoh City Council,,Ipoh,part,council area inside a district
+Malaysia,Ipoh,,Ipoh,part,council area inside a district
+Malaysia,Johor Bahru City Council,,Johor Bahru,part,council area inside a district
+Malaysia,Putrajaya Corporation,,Putrajaya,part,federal territory drawn inside Sepang by gbOpen
+Malaysia,Putrajaya,,Putrajaya,part,federal territory drawn inside Sepang by gbOpen
+Malaysia,Iskandar Puteri City Council,,Iskandar Puteri,part,council area inside a district
+Malaysia,Kuala Terengganu City Council,,Kuala Terengganu,part,council area inside a district
+Malaysia,Kuching Selatan City Council,,Kuching,part,council area inside a district
+Malaysia,Pasir Gudang City Council,,Pasir Gudang,part,council area inside a district
+Malaysia,Subang Jaya City Council,,Subang Jaya,part,council area inside a district
+Malaysia,Hang Tuah Jaya Municipal Council,,Ayer Keroh,part,council area inside a district (seat at Ayer Keroh)
+Malaysia,Kangar Municipal Council,,Kangar,part,council area inside a district
+Malaysia,Kuala Selangor Municipal Council,,Kuala Selangor,part,council area inside a district
+Malaysia,Kulai Municipal Council,,Kulai,part,council area inside a district
+Malaysia,Langkawi Municipal Council (Tourism City),,Langkawi,part,council area inside a district
+Malaysia,Manjung Municipal Council,,Seri Manjung,part,council area inside a district
+Malaysia,Padawan Municipal Council,,Kota Padawan,part,council area inside a district
+Malaysia,Pekan Municipal Council,,"Pekan, Pahang",part,council area inside a district
+Malaysia,Port Dickson Municipal Council,,Port Dickson,part,council area inside a district
+Malaysia,Segamat Municipal Council,,Segamat,part,council area inside a district
+Malaysia,Selayang Municipal Council,,Selayang,part,council area inside a district
+Malaysia,Kampar District Council,,"Kampar, Perak",part,council area inside a district
+Malaysia,Tangkak District Council,,Tangkak,part,council area inside a district
+Malaysia,Seberang Perai,,Seberang Perai,,city council covering several districts
+Brunei,Bandar Seri Begawan,,Bandar Seri Begawan,,municipal area covering several mukims
+Laos,Vientiane,,cluster=Vientiane Capital,,the capital prefecture; Vientiane Province is a different province
+Myanmar,Nay Pyi Taw,,units=Det Khi Na;Oke Ta Ra,,union territory (the two Naypyitaw districts gbOpen files under Mandalay)
+Cambodia,Sihanoukville City,,Sihanoukville,,city
+Philippines,Manila,,City of Manila,,city covering several districts
+Philippines,Cauayan City,,"Cauayan, Isabela",,homonym; Cauayan City is in Isabela
+Philippines,San Pablo City,,"San Pablo, Laguna",,area printed Laguna Cluster
+Philippines,Calamba City,,"Calamba, Laguna",,area printed Laguna Cluster
+Philippines,Taytay,,"Taytay, Rizal",,area printed Metro Rizal
+Philippines,Roxas City,,"Roxas City, Capiz",,homonym; Roxas City is in Capiz
+Indonesia,"Toba (Toba Samosir until 2020) Regency, North Sumatra",,Kabupaten Toba,,renamed in 2020
+Japan,"Omuta, Fukuoka",,大牟田市,,gbOpen names the unit Oomura (Omura is a Nagasaki city)
+Myanmar,Yangon,,cluster=Yangon,,Yangon City spans townships in all four Yangon Region districts

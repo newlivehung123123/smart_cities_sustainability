@@ -1,0 +1,20 @@
+Sources for ascn.csv, read 1 Nov 2026. Passages copied verbatim.
+
+[1] ASCN Concept Note, asean.org/wp-content/uploads/2019/02/ASCN-Concept-Note.pdf (saved as ASCN_concept_note_2018.pdf), annex "As of 23 March 2018 LIST OF PILOT ASEAN SMART CITIES NETWORK CITIES":
+1 Bandar Seri Begawan 2 Bangkok 3 Banyuwangi 4 Battambang 5 Cebu City 6 Chonburi 7 Da Nang 8 Davao City 9 DKI Jakarta 10 Ha Noi 11 Ho Chi Minh City 12 Johor Bahru 13 Kota Kinabalu 14 Kuala Lumpur 15 Kuching 16 Luang Prabang 17 Makassar 18 Mandalay 19 Manila 20 Nay Pyi Taw 21 Phnom Penh 22 Phuket 23 Siem Reap 24 Singapore 25 Vientiane 26 Yangon
+
+[2] ASEAN Main Portal, https://asean.org/our-communities/asean-smart-cities-network/ (read in a browser; plain requests get a Sucuri redirect):
+"At the 32nd ASEAN Summit on 28 April 2018 in Singapore, the ASEAN Leaders established the ASEAN Smart Cities Network (ASCN)."
+"The ASCN has grown its membership base to 38 cities as of January 2026, with the following cities joining as members:
+2023: Chiang Mai, Khon Kaen, and Rayong (Thailand)
+2024: Sumedang (Indonesia) and Sihanoukville City (Cambodia)
+2025: Ipoh, Putrajaya, and Seberang Perai (Malaysia); Cauayan City (the Philippines); Denpasar and Semarang (Indonesia)
+2026: Dili (Timor-Leste)."
+
+[3] ASEAN press release, 12 July 2023, https://asean.org/asean-smart-cities-network-steps-up-efforts-on-promoting-smart-sustainable-cities/ :
+"BALI, 12 July 2023 - Representatives of national and local governments across the region gathered today in Bali for the Sixth Annual Meeting of the ASEAN Smart Cities Network (ASCN)." ... "Participants discussed ... expansion of ASCN membership."
+
+[4] Pattaya Mail, 29 July 2023, https://www.pattayamail.com/thailandnews/chiang-mai-khon-kaen-rayong-join-asean-smart-cities-network-437046 :
+"The announcement was made at the sixth annual ASEAN Smart Cities Network meeting in Bali, Indonesia." "With this inclusion, the number of ASCN members will increase from 26 to 29 cities."
+
+[5] Search results (not read in full, used only for months after the panel ends): 7th Annual Meeting, Luang Prabang, 30 July 2024; 8th Annual Meeting, Kuala Lumpur, September 2025.

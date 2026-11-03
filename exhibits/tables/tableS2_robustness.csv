@@ -1,0 +1,194 @@
+part,check,group,Outcome,"Effect, percent (95% CI) [p]",n_obs,n_clusters,note
+estimators,main,,ln_pm25,1.00 (−1.47 to 3.54) [0.431],2869.0,328.0,
+estimators,"Callaway and Sant'Anna, doubly robust",,ln_pm25,0.40 (−1.46 to 2.55) [0.701],2869.0,,"cluster bootstrap, 499 draws, percentile interval; 33 cohort-year cells, not-yet-designated comparisons in the economy"
+estimators,de Chaisemartin and D'Haultfoeuille,,ln_pm25,0.92 (−1.58 to 3.63) [0.492],2869.0,,"cluster bootstrap, 499 draws, percentile interval; 134 cohort-economy-year cells"
+estimators,stacked,,ln_pm25,1.14 (−1.29 to 3.64) [0.361],126646.0,328.0,"8 stacks, years g-5 to g+5"
+estimators,static two-way fixed effects,,ln_pm25,1.15 (−1.58 to 3.94) [0.413],45068.0,328.0,all treated years
+estimators,Goodman-Bacon two-way estimate,,ln_pm25,5.04,2204.0,,balanced districts 2204; weights sum 1.0000; recomposed 0.04917; weight on comparisons with already-designated districts 0.016
+estimators,entropy balancing,,ln_pm25,1.87 (−0.81 to 4.91) [0.207],2869.0,123.0,"bootstrap 496 of 499 draws re-estimating the weights (3 draws dropped with a balance gap above 0.001 sd); se given the weights 0.0145; 1441 comparison districts, effective number 256, largest balance gap 1.8e-09 sd"
+estimators,2015 population weights,,ln_pm25,2.42 (0.02 to 4.87) [0.048],2869.0,123.0,weighted fit and weighted mean of effects
+estimators,main,,ln_no2,−9.22 (−11.75 to −6.61) [< 0.001],2851.0,328.0,
+estimators,"Callaway and Sant'Anna, doubly robust",,ln_no2,−2.13 (−4.31 to 0.22) [0.080],2851.0,,"cluster bootstrap, 499 draws, percentile interval; 33 cohort-year cells, not-yet-designated comparisons in the economy"
+estimators,de Chaisemartin and D'Haultfoeuille,,ln_no2,−3.88 (−5.62 to −1.91) [< 0.001],2851.0,,"cluster bootstrap, 499 draws, percentile interval; 134 cohort-economy-year cells"
+estimators,stacked,,ln_no2,−7.95 (−10.04 to −5.81) [< 0.001],125420.0,328.0,"8 stacks, years g-5 to g+5"
+estimators,static two-way fixed effects,,ln_no2,−7.89 (−10.03 to −5.70) [< 0.001],44598.0,328.0,all treated years
+estimators,Goodman-Bacon two-way estimate,,ln_no2,2.69,2129.0,,balanced districts 2129; weights sum 1.0000; recomposed 0.02656; weight on comparisons with already-designated districts 0.016
+estimators,entropy balancing,,ln_no2,−1.42 (−4.03 to 0.53) [0.227],2851.0,123.0,"bootstrap 496 of 499 draws re-estimating the weights (3 draws dropped with a balance gap above 0.001 sd); se given the weights 0.0132; 1429 comparison districts, effective number 120, largest balance gap 2.0e-10 sd"
+estimators,2015 population weights,,ln_no2,−10.56 (−14.68 to −6.24) [< 0.001],2851.0,123.0,weighted fit and weighted mean of effects
+rival,main,,ln_pm25,1.00 (−1.47 to 3.54) [0.431],2869.0,328.0,
+rival,2020 and 2021 dropped,,ln_pm25,0.85 (−1.51 to 3.26) [0.484],2046.0,328.0,
+rival,one year of anticipation,,ln_pm25,0.93 (−1.09 to 3.00) [0.368],3169.0,328.0,designation year moved one year earlier
+rival,economy dropped,BRN,ln_pm25,1.02 (−1.48 to 3.59) [0.427],2833.0,327.0,
+rival,economy dropped,IDN,ln_pm25,0.89 (−2.28 to 4.16) [0.586],1923.0,294.0,
+rival,economy dropped,JPN,ln_pm25,1.17 (−1.80 to 4.24) [0.444],2326.0,281.0,
+rival,economy dropped,KHM,ln_pm25,0.79 (−1.73 to 3.37) [0.543],2785.0,320.0,
+rival,economy dropped,KOR,ln_pm25,1.75 (−0.86 to 4.44) [0.191],2542.0,312.0,
+rival,economy dropped,LAO,ln_pm25,1.09 (−1.41 to 3.65) [0.395],2827.0,323.0,
+rival,economy dropped,MMR,ln_pm25,0.93 (−1.58 to 3.51) [0.470],2827.0,315.0,
+rival,economy dropped,MNG,ln_pm25,1.01 (−1.47 to 3.55) [0.428],2869.0,326.0,
+rival,economy dropped,MYS,ln_pm25,1.09 (−1.41 to 3.65) [0.397],2841.0,315.0,
+rival,economy dropped,PHL,ln_pm25,0.77 (−1.80 to 3.41) [0.561],2773.0,269.0,
+rival,economy dropped,THA,ln_pm25,0.55 (−2.26 to 3.44) [0.705],2510.0,277.0,
+rival,economy dropped,TLS,ln_pm25,1.00 (−1.47 to 3.54) [0.431],2869.0,327.0,
+rival,economy dropped,TWN,ln_pm25,0.97 (−1.51 to 3.52) [0.445],2869.0,309.0,
+rival,economy dropped,VNM,ln_pm25,0.95 (−0.63 to 2.56) [0.239],2503.0,269.0,
+rival,capital cities dropped,,ln_pm25,1.40 (−1.17 to 4.04) [0.288],2045.0,311.0,244 districts in capital first-level units dropped; Nay Pyi Taw and Putrajaya have no district in the panel
+rival,main,,ln_no2,−9.22 (−11.75 to −6.61) [< 0.001],2851.0,328.0,
+rival,2020 and 2021 dropped,,ln_no2,−8.57 (−11.33 to −5.72) [< 0.001],2033.0,328.0,
+rival,one year of anticipation,,ln_no2,−8.94 (−11.78 to −6.02) [< 0.001],3148.0,328.0,designation year moved one year earlier
+rival,economy dropped,BRN,ln_no2,−9.27 (−11.83 to −6.63) [< 0.001],2815.0,327.0,
+rival,economy dropped,IDN,ln_no2,−4.28 (−6.30 to −2.22) [< 0.001],1912.0,294.0,
+rival,economy dropped,JPN,ln_no2,−11.71 (−14.42 to −8.92) [< 0.001],2308.0,281.0,
+rival,economy dropped,KHM,ln_no2,−9.40 (−11.96 to −6.77) [< 0.001],2767.0,320.0,
+rival,economy dropped,KOR,ln_no2,−9.96 (−12.73 to −7.09) [< 0.001],2529.0,312.0,
+rival,economy dropped,LAO,ln_no2,−9.00 (−11.54 to −6.39) [< 0.001],2809.0,323.0,
+rival,economy dropped,MMR,ln_no2,−9.27 (−11.83 to −6.63) [< 0.001],2809.0,315.0,
+rival,economy dropped,MNG,ln_no2,−9.21 (−11.74 to −6.61) [< 0.001],2851.0,326.0,
+rival,economy dropped,MYS,ln_no2,−9.32 (−11.86 to −6.71) [< 0.001],2823.0,315.0,
+rival,economy dropped,PHL,ln_no2,−9.40 (−11.96 to −6.75) [< 0.001],2755.0,269.0,
+rival,economy dropped,THA,ln_no2,−9.01 (−11.84 to −6.09) [< 0.001],2492.0,277.0,
+rival,economy dropped,TLS,ln_no2,−9.22 (−11.75 to −6.61) [< 0.001],2851.0,327.0,
+rival,economy dropped,TWN,ln_no2,−9.16 (−11.68 to −6.56) [< 0.001],2851.0,309.0,
+rival,economy dropped,VNM,ln_no2,−9.52 (−12.21 to −6.75) [< 0.001],2491.0,269.0,
+rival,capital cities dropped,,ln_no2,−9.15 (−12.14 to −6.05) [< 0.001],2027.0,311.0,244 districts in capital first-level units dropped; Nay Pyi Taw and Putrajaya have no district in the panel
+rival,"monthly product, all months",,ln_m_pm25,1.00 (−1.47 to 3.54) [0.431],2869.0,328.0,mean of the 12 monthly values
+rival,"monthly product, all months",,ln_m_no2,−9.22 (−11.75 to −6.61) [< 0.001],2851.0,328.0,mean of the 12 monthly values
+rival,burning-season months dropped,,ln_m_pm25,0.83 (−1.73 to 3.46) [0.528],2869.0,328.0,"February to April dropped in KHM, LAO, MMR, THA, VNM; August to October in IDN, MYS, BRN"
+rival,burning-season months dropped,,ln_m_no2,−9.90 (−12.47 to −7.26) [< 0.001],2851.0,328.0,"February to April dropped in KHM, LAO, MMR, THA, VNM; August to October in IDN, MYS, BRN"
+rival,neighbours of designated districts dropped,,ln_pm25,1.99 (−0.58 to 4.62) [0.130],2833.0,316.0,716 undesignated districts that border or share an urban centre with a district designated by 2024
+rival,effect on undesignated neighbours,,ln_pm25,1.70 (−0.25 to 3.69) [0.087],3818.0,302.0,"undesignated districts only, treated from the first designation of a bordering district or urban-centre partner"
+rival,neighbours of designated districts dropped,,ln_no2,−7.89 (−10.14 to −5.58) [< 0.001],2815.0,316.0,716 undesignated districts that border or share an urban centre with a district designated by 2024
+rival,effect on undesignated neighbours,,ln_no2,−3.35 (−5.28 to −1.39) [< 0.001],3794.0,302.0,"undesignated districts only, treated from the first designation of a bordering district or urban-centre partner"
+rival,urban centre as the unit,,ln_pm25,−0.20 (−1.81 to 1.44) [0.807],1289.0,300.0,"835 urban centres, 296 designated by 2024"
+rival,urban centre as the unit,,ln_no2,−8.39 (−11.35 to −5.33) [< 0.001],1282.0,300.0,"835 urban centres, 296 designated by 2024"
+coding,main,,ln_pm25,1.00 (−1.47 to 3.54) [0.431],2869.0,328.0,
+coding,part-district designations not counted,,ln_pm25,1.14 (−1.43 to 3.78) [0.388],2758.0,328.0,
+coding,Indonesia dated by the 2022 cohort list,,ln_pm25,1.00 (−1.48 to 3.55) [0.431],2912.0,328.0,
+coding,Indonesian memorandum-only districts dropped,,ln_pm25,0.97 (−1.51 to 3.52) [0.446],2859.0,328.0,10 districts dropped
+coding,undesignated Vietnamese districts dropped,,ln_pm25,0.95 (−0.64 to 2.56) [0.242],2503.0,272.0,
+coding,undesignated districts in named prefectures dropped,,ln_pm25,1.10 (−1.39 to 3.65) [0.391],2869.0,323.0,270 districts dropped
+coding,urban districts only,,ln_pm25,0.77 (−1.83 to 3.45) [0.564],2257.0,287.0,1453 districts
+coding,alternative programme coded as treated,jp_joint,ln_pm25,1.03 (−1.41 to 3.52) [0.411],2923.0,328.0,24 districts added
+coding,alternative programme districts dropped,jp_joint,ln_pm25,1.01 (−1.47 to 3.55) [0.429],2869.0,328.0,24 districts dropped
+coding,alternative programme coded as treated,jp_digital_garden,ln_pm25,0.99 (−1.48 to 3.53) [0.434],2872.0,328.0,1 districts added
+coding,alternative programme districts dropped,jp_digital_garden,ln_pm25,1.00 (−1.48 to 3.54) [0.432],2869.0,328.0,1 districts dropped
+coding,alternative programme coded as treated,kr_campus,ln_pm25,1.09 (−1.37 to 3.61) [0.388],2881.0,328.0,3 districts added
+coding,alternative programme districts dropped,kr_campus,ln_pm25,1.06 (−1.42 to 3.59) [0.405],2869.0,328.0,3 districts dropped
+coding,alternative programme coded as treated,kr_theme_complex,ln_pm25,1.00 (−1.47 to 3.53) [0.430],2874.0,328.0,0 districts added
+coding,alternative programme districts dropped,kr_theme_complex,ln_pm25,1.00 (−1.47 to 3.54) [0.431],2869.0,328.0,0 districts dropped
+coding,alternative programme coded as treated,my_rating_2023,ln_pm25,1.00 (−1.47 to 3.54) [0.431],2869.0,328.0,3 districts added
+coding,alternative programme districts dropped,my_rating_2023,ln_pm25,1.02 (−1.46 to 3.56) [0.424],2869.0,328.0,3 districts dropped
+coding,alternative programme coded as treated,ph_digital_cities,ln_pm25,0.90 (−1.48 to 3.33) [0.462],3024.0,328.0,31 districts added
+coding,alternative programme districts dropped,ph_digital_cities,ln_pm25,0.98 (−1.50 to 3.52) [0.441],2869.0,327.0,31 districts dropped
+coding,balanced panel,,ln_pm25,1.00 (−1.47 to 3.54) [0.431],2869.0,328.0,2256 districts with the outcome in every panel year
+coding,main,,ln_no2,−9.22 (−11.75 to −6.61) [< 0.001],2851.0,328.0,
+coding,part-district designations not counted,,ln_no2,−9.62 (−12.13 to −7.05) [< 0.001],2740.0,328.0,
+coding,Indonesia dated by the 2022 cohort list,,ln_no2,−9.43 (−12.02 to −6.77) [< 0.001],2894.0,328.0,
+coding,Indonesian memorandum-only districts dropped,,ln_no2,−9.61 (−12.31 to −6.84) [< 0.001],2841.0,328.0,10 districts dropped
+coding,undesignated Vietnamese districts dropped,,ln_no2,−9.53 (−12.22 to −6.76) [< 0.001],2491.0,272.0,
+coding,undesignated districts in named prefectures dropped,,ln_no2,−9.17 (−11.70 to −6.57) [< 0.001],2851.0,323.0,270 districts dropped
+coding,urban districts only,,ln_no2,−6.43 (−8.82 to −3.97) [< 0.001],2239.0,286.0,1453 districts
+coding,alternative programme coded as treated,jp_joint,ln_no2,−8.93 (−11.46 to −6.33) [< 0.001],2905.0,328.0,24 districts added
+coding,alternative programme districts dropped,jp_joint,ln_no2,−9.17 (−11.71 to −6.55) [< 0.001],2851.0,328.0,24 districts dropped
+coding,alternative programme coded as treated,jp_digital_garden,ln_no2,−9.20 (−11.73 to −6.60) [< 0.001],2854.0,328.0,1 districts added
+coding,alternative programme districts dropped,jp_digital_garden,ln_no2,−9.22 (−11.75 to −6.61) [< 0.001],2851.0,328.0,1 districts dropped
+coding,alternative programme coded as treated,kr_campus,ln_no2,−9.19 (−11.71 to −6.60) [< 0.001],2863.0,328.0,3 districts added
+coding,alternative programme districts dropped,kr_campus,ln_no2,−9.22 (−11.75 to −6.62) [< 0.001],2851.0,328.0,3 districts dropped
+coding,alternative programme coded as treated,kr_theme_complex,ln_no2,−9.20 (−11.74 to −6.59) [< 0.001],2856.0,328.0,0 districts added
+coding,alternative programme districts dropped,kr_theme_complex,ln_no2,−9.22 (−11.75 to −6.61) [< 0.001],2851.0,328.0,0 districts dropped
+coding,alternative programme coded as treated,my_rating_2023,ln_no2,−9.22 (−11.75 to −6.61) [< 0.001],2851.0,328.0,3 districts added
+coding,alternative programme districts dropped,my_rating_2023,ln_no2,−9.23 (−11.76 to −6.62) [< 0.001],2851.0,328.0,3 districts dropped
+coding,alternative programme coded as treated,ph_digital_cities,ln_no2,−8.89 (−11.30 to −6.41) [< 0.001],3001.0,328.0,31 districts added
+coding,alternative programme districts dropped,ph_digital_cities,ln_no2,−9.23 (−11.75 to −6.63) [< 0.001],2851.0,327.0,31 districts dropped
+coding,balanced panel,,ln_no2,−7.83 (−9.85 to −5.77) [< 0.001],2813.0,326.0,2180 districts with the outcome in every panel year
+coding,area-weighted outcome,,ln_pm25_area,0.83 (−1.65 to 3.38) [0.516],2869.0,328.0,compare ln_pm25
+coding,area-weighted outcome,,ln_no2_area,−13.35 (−16.82 to −9.73) [< 0.001],2851.0,328.0,compare ln_no2
+coding,NO2 without the clipping rule,,ln_no2_all,−9.83 (−12.64 to −6.93) [< 0.001],2851.0,328.0,compare ln_no2
+inference,main,,ln_pm25,1.00 (−1.47 to 3.54) [0.431],2869.0,328.0,
+inference,"Conley standard error, 100 km",,ln_pm25,1.00 (−0.73 to 2.76) [0.258],2869.0,,uniform kernel on district distance; cluster formula check 0.01266
+inference,"Conley standard error, 250 km",,ln_pm25,1.00 (−0.13 to 2.15) [0.084],2869.0,,uniform kernel on district distance; cluster formula check 0.01266
+inference,"economy clusters, wild bootstrap",,ln_pm25,1.00 [0.134],,14.0,"Webb weights, 9999 draws, restricted, studentised; se is the analytic economy-clustered value"
+inference,main,,ln_no2,−9.22 (−11.75 to −6.61) [< 0.001],2851.0,328.0,
+inference,"Conley standard error, 100 km",,ln_no2,−9.22 (−12.11 to −6.23) [< 0.001],2851.0,,uniform kernel on district distance; cluster formula check 0.01443
+inference,"Conley standard error, 250 km",,ln_no2,−9.22 (−12.49 to −5.82) [< 0.001],2851.0,,uniform kernel on district distance; cluster formula check 0.01443
+inference,"economy clusters, wild bootstrap",,ln_no2,−9.22 [0.099],,14.0,"Webb weights, 9999 draws, restricted, studentised; se is the analytic economy-clustered value"
+inference,randomisation inference within economies,,ln_pm25,1.00 [0.032],,,1000 permutations of the designation year across districts of the same economy; se is the sd of the permutation estimates
+inference,randomisation inference within economies,,ln_no2,−9.22 [< 0.001],,,1000 permutations of the designation year across districts of the same economy; se is the sd of the permutation estimates
+extras,heterogeneity,income H,ln_pm25,−2.14 (−4.90 to 0.71) [0.139],906.0,328.0,
+extras,heterogeneity,income UM,ln_pm25,2.77 (1.53 to 4.03) [< 0.001],483.0,328.0,
+extras,heterogeneity,income LM,ln_pm25,2.39 (−2.00 to 6.98) [0.291],1480.0,328.0,
+extras,heterogeneity,income L,ln_pm25,,0.0,0.0,
+extras,heterogeneity,size group 1,ln_pm25,1.35 (−1.45 to 4.23) [0.348],227.0,328.0,
+extras,heterogeneity,size group 2,ln_pm25,−0.33 (−3.12 to 2.53) [0.817],375.0,328.0,
+extras,heterogeneity,size group 3,ln_pm25,0.91 (−3.03 to 5.02) [0.655],847.0,328.0,
+extras,heterogeneity,size group 4,ln_pm25,1.36 (−1.26 to 4.04) [0.313],1420.0,328.0,
+extras,heterogeneity,part of district,ln_pm25,−1.26 (−3.76 to 1.31) [0.333],185.0,328.0,
+extras,heterogeneity,whole district,ln_pm25,1.16 (−1.44 to 3.82) [0.385],2684.0,328.0,
+extras,heterogeneity,h0_7,ln_pm25,1.27 (−1.38 to 3.99) [0.350],3150.0,328.0,
+extras,heterogeneity,h6,ln_pm25,3.91 (−1.42 to 9.53) [0.153],256.0,328.0,
+extras,heterogeneity,h7,ln_pm25,5.51 (−1.10 to 12.57) [0.104],25.0,328.0,
+extras,heterogeneity,income H,ln_no2,1.09 (−0.91 to 3.12) [0.288],901.0,328.0,
+extras,heterogeneity,income UM,ln_no2,−10.05 (−12.33 to −7.72) [< 0.001],483.0,328.0,
+extras,heterogeneity,income LM,ln_no2,−14.76 (−18.62 to −10.70) [< 0.001],1467.0,328.0,
+extras,heterogeneity,income L,ln_no2,,0.0,0.0,
+extras,heterogeneity,size group 1,ln_no2,−6.52 (−10.44 to −2.43) [0.002],227.0,328.0,
+extras,heterogeneity,size group 2,ln_no2,−7.19 (−10.28 to −4.00) [< 0.001],364.0,328.0,
+extras,heterogeneity,size group 3,ln_no2,−8.94 (−11.88 to −5.91) [< 0.001],840.0,328.0,
+extras,heterogeneity,size group 4,ln_no2,−10.31 (−14.11 to −6.34) [< 0.001],1420.0,328.0,
+extras,heterogeneity,part of district,ln_no2,1.55 (−0.84 to 3.99) [0.205],185.0,328.0,
+extras,heterogeneity,whole district,ln_no2,−9.92 (−12.46 to −7.31) [< 0.001],2666.0,328.0,
+extras,heterogeneity,h0_7,ln_no2,−9.64 (−12.13 to −7.09) [< 0.001],3131.0,328.0,
+extras,heterogeneity,h6,ln_no2,−13.21 (−17.64 to −8.54) [< 0.001],255.0,328.0,
+extras,heterogeneity,h7,ln_no2,−20.62 (−30.14 to −9.80) [< 0.001],25.0,328.0,
+extras,RQ3 from by-model years,implementation support,ln_pm25,−0.47 (−2.58 to 1.68) [0.663],1563.0,328.0,districts 361 (main coding 361)
+extras,RQ3 without dual-model districts,implementation support,ln_pm25,−0.44 (−2.68 to 1.84) [0.701],1452.0,328.0,33 districts dropped
+extras,RQ3 censored at a later designation under another model,implementation support,ln_pm25,−0.46 (−2.63 to 1.77) [0.686],1498.0,328.0,
+extras,RQ3 with the Super City programme,implementation support,ln_pm25,−0.47 (−2.58 to 1.68) [0.663],1563.0,328.0,districts 361
+extras,RQ3 from by-model years,implementation support,ln_no2,−10.99 (−14.00 to −7.87) [< 0.001],1551.0,328.0,districts 361 (main coding 361)
+extras,RQ3 without dual-model districts,implementation support,ln_no2,−12.05 (−15.03 to −8.96) [< 0.001],1440.0,328.0,33 districts dropped
+extras,RQ3 censored at a later designation under another model,implementation support,ln_no2,−11.43 (−14.46 to −8.30) [< 0.001],1486.0,328.0,
+extras,RQ3 with the Super City programme,implementation support,ln_no2,−10.99 (−14.00 to −7.87) [< 0.001],1551.0,328.0,districts 361
+extras,RQ3 from by-model years,certification,ln_pm25,−0.67 (−1.91 to 0.59) [0.299],274.0,328.0,districts 86 (main coding 98)
+extras,RQ3 without dual-model districts,certification,ln_pm25,−0.69 (−1.95 to 0.58) [0.286],274.0,328.0,33 districts dropped
+extras,RQ3 censored at a later designation under another model,certification,ln_pm25,−0.71 (−2.24 to 0.83) [0.364],260.0,328.0,
+extras,RQ3 with the Super City programme,certification,ln_pm25,−0.67 (−1.91 to 0.59) [0.299],274.0,328.0,districts 86
+extras,RQ3 from by-model years,certification,ln_no2,3.01 (0.82 to 5.24) [0.007],274.0,328.0,districts 86 (main coding 98)
+extras,RQ3 without dual-model districts,certification,ln_no2,3.04 (0.84 to 5.29) [0.006],274.0,328.0,33 districts dropped
+extras,RQ3 censored at a later designation under another model,certification,ln_no2,2.82 (0.56 to 5.13) [0.014],260.0,328.0,
+extras,RQ3 with the Super City programme,certification,ln_no2,3.01 (0.82 to 5.24) [0.007],274.0,328.0,districts 86
+extras,RQ3 from by-model years,network membership,ln_pm25,3.74 (−2.29 to 10.14) [0.230],1032.0,328.0,districts 172 (main coding 181)
+extras,RQ3 without dual-model districts,network membership,ln_pm25,3.72 (−2.30 to 10.12) [0.231],1032.0,328.0,33 districts dropped
+extras,RQ3 censored at a later designation under another model,network membership,ln_pm25,3.71 (−2.54 to 10.35) [0.250],994.0,328.0,
+extras,RQ3 with the Super City programme,network membership,ln_pm25,3.74 (−2.29 to 10.14) [0.230],1032.0,328.0,districts 172
+extras,RQ3 from by-model years,network membership,ln_no2,−9.57 (−13.06 to −5.95) [< 0.001],1026.0,328.0,districts 172 (main coding 181)
+extras,RQ3 without dual-model districts,network membership,ln_no2,−9.58 (−13.06 to −5.96) [< 0.001],1026.0,328.0,33 districts dropped
+extras,RQ3 censored at a later designation under another model,network membership,ln_no2,−9.50 (−13.00 to −5.86) [< 0.001],988.0,328.0,
+extras,RQ3 with the Super City programme,network membership,ln_no2,−9.57 (−13.06 to −5.95) [< 0.001],1026.0,328.0,districts 172
+extras,NO2 by calendar month,m01,ln_no2_m01,−8.72 (−11.81 to −5.52) [< 0.001],2851.0,328.0,
+extras,NO2 by calendar month,m02,ln_no2_m02,−8.46 (−11.73 to −5.06) [< 0.001],2851.0,328.0,
+extras,NO2 by calendar month,m03,ln_no2_m03,−8.65 (−12.13 to −5.03) [< 0.001],2851.0,328.0,
+extras,NO2 by calendar month,m04,ln_no2_m04,−9.60 (−12.64 to −6.45) [< 0.001],2851.0,328.0,
+extras,NO2 by calendar month,m05,ln_no2_m05,−11.52 (−14.54 to −8.39) [< 0.001],2851.0,328.0,
+extras,NO2 by calendar month,m06,ln_no2_m06,−11.13 (−13.82 to −8.37) [< 0.001],2851.0,328.0,
+extras,NO2 by calendar month,m07,ln_no2_m07,−10.27 (−12.92 to −7.54) [< 0.001],2851.0,328.0,
+extras,NO2 by calendar month,m08,ln_no2_m08,−9.73 (−12.29 to −7.10) [< 0.001],2851.0,328.0,
+extras,NO2 by calendar month,m09,ln_no2_m09,−9.76 (−12.03 to −7.43) [< 0.001],2851.0,328.0,
+extras,NO2 by calendar month,m10,ln_no2_m10,−10.50 (−12.88 to −8.06) [< 0.001],2851.0,328.0,
+extras,NO2 by calendar month,m11,ln_no2_m11,−9.11 (−12.16 to −5.95) [< 0.001],2851.0,328.0,
+extras,NO2 by calendar month,m12,ln_no2_m12,−9.11 (−12.25 to −5.86) [< 0.001],2851.0,328.0,
+extras,RQ2 over 2005 to 2024,,ln_ntl,−23.57 (−27.92 to −18.96) [< 0.001],2869.0,328.0,"DMSP to 2013, VIIRS converted to the DMSP scale from 2014 (Li et al. 2020)"
+extras,RQ2 over 2005 to 2024,,ln_pm25_per_ntl,32.22 (22.99 to 42.14) [< 0.001],2869.0,328.0,"DMSP to 2013, VIIRS converted to the DMSP scale from 2014 (Li et al. 2020)"
+honest,Sun and Abraham,,ln_pm25,0.59 (−2.26 to 3.52) [0.687],,328.0,"never-designated comparison, year -1 reference"
+honest,Rambachan and Roth breakdown,,ln_pm25,0.59,,,largest relative magnitude Mbar with zero outside the set: nan
+honest,Sun and Abraham,,ln_no2,−3.33 (−4.76 to −1.88) [< 0.001],,328.0,"never-designated comparison, year -1 reference"
+honest,Rambachan and Roth breakdown,,ln_no2,−3.33,,,largest relative magnitude Mbar with zero outside the set: 0.110
+exploratory,randomisation inference in province blocks,,ln_pm25,1.00 [0.398],,,"provinces permuted within economies, district years drawn from the matched province"
+exploratory,randomisation inference in province blocks,,ln_no2,−9.22 [< 0.001],,,"provinces permuted within economies, district years drawn from the matched province"
+exploratory,district-specific linear trends,,ln_pm25,0.01 (−3.16 to 3.29) [0.994],2869.0,328.0,
+exploratory,district-specific linear trends,,ln_no2,−6.36 (−8.15 to −4.54) [< 0.001],2851.0,328.0,
+exploratory,"night-time light, all districts",,ln_ntl,−21.31 (−25.40 to −16.99) [< 0.001],2869.0,,2256 districts
+exploratory,"night-time light, all districts",,ln_pm25_per_ntl,28.36 (20.06 to 37.24) [< 0.001],2869.0,,2256 districts
+exploratory,"night-time light, 2016 mean DN below 40",,ln_ntl,−15.08 (−19.31 to −10.63) [< 0.001],1491.0,,1451 districts
+exploratory,"night-time light, 2016 mean DN below 40",,ln_pm25_per_ntl,17.76 (10.98 to 24.96) [< 0.001],1491.0,,1451 districts
+exploratory,"night-time light, 2016 mean DN below 30",,ln_ntl,−14.88 (−19.18 to −10.35) [< 0.001],1259.0,,1247 districts
+exploratory,"night-time light, 2016 mean DN below 30",,ln_pm25_per_ntl,17.44 (10.62 to 24.69) [< 0.001],1259.0,,1247 districts

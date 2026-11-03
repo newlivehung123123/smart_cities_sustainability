@@ -1,0 +1,104 @@
+Sources for malaysia_kpkt_smart_city.csv, read 1 Nov 2026. Built by scripts/designations/07_malaysia.py.
+Passages are copied from the saved text (malaysia_saved/*.txt, made from the PDF or html saved the same day). The script
+parses or asserts every passage below and stops if a list or count differs, so the lists below are the ones coded.
+The ASEAN Smart Cities Network members in Malaysia are in ascn.csv, not here.
+
+Access: kpkt.gov.my PDFs and the council pages loaded directly. Not saved: Utusan Malaysia (October 2025), Malay Mail
+(28 October 2026) and the Selangor state assembly answer on dewan.selangor.gov.my (certificate error); these are cited
+from search results only and code nothing on their own. Bernama is paywalled; its launch report is read from the Malay
+Mail copy. Licences of the saved news pages are to be checked before any raw file is pushed.
+
+Two programmes, both run by the housing and local government ministry (KPKT; Kementerian Pembangunan Kerajaan Tempatan in
+2023, Kementerian Perumahan dan Kerajaan Tempatan from 2024) through PLANMalaysia.
+
+[1] Malaysia Smart City Framework (MSCF), pilot cities. Executive summary, "Prepared for; 2018",
+https://www.kpkt.gov.my/kpkt/resources/user_1/GALERI/PDF_PENERBITAN/FRAMEWORK/FRAMEWORK_SMART_CITY_EXECUTIVE_SUMMARY.pdf
+(saved as MSCF_executive_summary.pdf), section "MySMART CITY PILOT PROJECT", p. 43 onward:
+"Five (5) cities have been chosen as pilot project areas, namely Kuala Lumpur, Johor Bahru, Kota Kinabalu, Kuching, and
+Kulim. The selection of these cities are based on three main criteria." The criteria: ASEAN Smart Cities Network
+membership, "competitive cities as stated in 11MP", and different city hierarchy "based on NUP2".
+City profiles, as printed (area; local authority):
+  Kuala Lumpur "Area: 243 km²"; "Kuala Lumpur City Hall (KLCH)".
+  Johor Bahru "Area: 1,064 km2"; "Johor Bahru City Council (MBJB)", "Iskandar Puteri City Council (MBIP)", "Pasir Gudang
+  Municipal Council (MPPG)".
+  Kulim "Area: 765km²"; "Kulim City Council", "Kulim Hi-Tech Park (KHTP) local authority".
+  Kuching "Area: 431.01 km²"; Kuching South City Council (KSCC), Kuching North City Hall (KNCH), Padawan City Council.
+  Kota Kinabalu "Area: 351 km²"; Kota Kinabalu City Hall (KKCH).
+"Pilot projects- Project Implementation Briefs" assign each pilot city projects with lead agencies. Implementation
+roadmap: "PHASE 1 2019-2020", "Phase 1 (Foundation Stage)".
+Launch date. Bernama in Malay Mail, "First Published: Monday, 23 Sep 2019",
+https://www.malaymail.com/news/malaysia/2019/09/23/irda-smart-city-framework-a-big-step-to-realise-smart-nation-vision/1793389
+(saved as malaymail_2019-09-23.html): "KUALA LUMPUR, Sept 23 ― The launch of the Malaysia Smart City Framework by Prime
+Minister Tun Dr Mahathir Mohamad today is another big step towards realising the smart nation agenda." "The framework was
+launched at the two-day Cities 4.0 Conference beginning today."
+
+[2] Penarafan Bandar Pintar Malaysia (smart city rating), approved by the National Smart City Council (MBPN).
+KPKT press release, "KUALA LUMPUR, 10 Oktober 2023" (saved as kpkt_sm_mbpn_2023.pdf):
+"MBPN turut meluluskan cadangan Penarafan Bandar Pintar Malaysia"; indicators from "Malaysia Standard (MS) ISO
+37122:2019"; "Tahap 1-Smart City Early Adopter' secara sukarela (voluntary-basis)"; "KPKT menyasarkan sekurang-kurangnya
+ke semua 61 PBT bertaraf Majlis Perbandaran ke atas untuk mencapai status 'Smart City Early Adopter' pada tahun 2025."
+"Senarai PBT yang berjaya ... akan diumumkan oleh YB Menteri KPKT pada 9 November 2023". Rated councils "akan diberi
+keutamaan peruntukan bagi pelaksanaan inisiatif bandar pintar"; "Penarafan bandar pintar ini akan dilaksanakan secara
+tahunan".
+
+[3] 2023 round. KPKT press release, "PUTRAJAYA, 9 November 2023",
+https://www.kpkt.gov.my/kpkt/resources/user_1/media_akhbar/2023/SM_KOMITED_DALAM_PERANCANGAN_BANDAR_MALAYSIA_MADANI_KOMUNITI_SEJAHTERA.pdf
+(saved under that name): "29 penerima Anugerah Penarafan Bandar Pintar 2023". It refers to a list "seperti di Lampiran",
+but the saved PDF has no annex and no full 2023 list was found.
+Kajang Municipal Council, https://www.mpkj.gov.my/index.php/ms/info-mpkj/pusat-media/arkib-berita/penarafan-bandar-pintar-
+smart-city-early-adopter-2023 (saved as mpkj_2023-11-09.html): "Majlis Perbandaran Kajang (MPKj) pada 9 November 2023
+telah menerima Anugerah Penarafan Bandar Pintar 'Smart City Early Adopter 2023'"; "MPKj merupakan di antara 25 Pihak
+Berkuasa Tempatan (PBT) di Malaysia yang memperoleh anugerah tersebut"; "cek cura peruntukan khas bernilai RM200,000".
+Ipoh City Council, https://www.mbi.gov.my/pusat-media/aktiviti/tahniah-ipoh-antara-5-bandar-pintar-perintis-rangkul-
+status-smart-city-early-adopter-2023 (saved as mbi_2023-11-09.html): "9 November 2023-Ipoh antara 5 Bandar Pintar Perintis
+telah merangkul status Smart City Early Adopter 2023." "MBI menerima geran Peruntukan Khas bernilai RM 200,000 bagi projek
+inisiatif Bandar Pintar daripada KPKT".
+
+[4] 2024 round. KPKT press release, "KUALA LUMPUR, 24 Oktober 2024",
+https://www.kpkt.gov.my/kpkt/resources/user_1/media_akhbar/2024/SM_MAJLIS_BANDAR_PINTAR_NEGARA_MEMPERKASAKAN_AGENDA_EKONOMI_MADANI.pdf
+(saved under that name): the rating is "dilaksanakan secara sukarela (voluntary basis) bagi PBT yang telah bersedia dengan
+kriteria Smart City Indicator (MS) ISO 37122:2019", annual, in four levels (Tahap 1 Smart City Early Adopter, Tahap 2
+Developing Smart City, Tahap 3 Leading Smart City, Tahap 4 Visionary Smart City). "Bajet 2025 telah menyediakan peruntukan
+sebanyak RM 17.6 juta", partly for "pemberian insentif penarafan bandar pintar kepada PBT" rated in 2024. "Sebanyak 23 PBT
+yang telah mencapai Tahap 1: Smart City Early Adopter pada tahun 2023 telah secara sukarela memohon untuk penarafan Tahap
+2: Developing Smart City pada tahun ini. Manakala 51 PBT telah memohon untuk penarafan Tahap 1". "Semua PBT yang berjaya
+mendapat Tahap 1 dan 2 akan mendapat insentif dalam bentuk peruntukan bagi pelaksanaan melaksanakan projek bandar pintar".
+KPKT press release, "PUTRAJAYA, 28 Oktober 2024",
+https://www.kpkt.gov.my/kpkt/resources/user_1/media_akhbar/2024/SM_HPBS_2024_AGENDA_BANDAR_MAMPAN_DAN_PINTAR.pdf (saved
+under that name): "20 penerima Anugerah Penarafan Bandar Pintar 2024". Lampiran, p. 4, "PENGIKTIRAFAN PENARAFAN BANDAR
+PINTAR 2024": "SMART CITY EARLY ADOPTER" numbered 1 to 18 (Majlis Bandaraya Iskandar Puteri ... Majlis Daerah Tangkak) and
+"DEVELOPING SMART CITY" numbered 1 to 2 (Majlis Bandaraya Johor Bahru, Perbadanan Putrajaya). "Nota: Susunan PBT adalah
+mengikut turutan abjad."
+
+[5] Later rounds, after the panel (search results only, not coded). Utusan Malaysia, October 2025,
+https://www.utusan.com.my/nasional/2025/10/30-pbt-dapat-penarafan-bandar-pintar/: 30 councils rated in 2025, 75 in all (70
+at Tahap 1, 4 at Tahap 2, 1 at Tahap 3). Malay Mail, 28 October 2026,
+https://malaymail.com/news/malaysia/2026/10/28/housing-ministry-88-local-authorities-recognised-under-malaysias-smart-city-
+programme-since-2023/240923: 88 councils recognised since 2023. The Selangor state assembly answer
+(https://dewan.selangor.gov.my/question/smart-city/) reportedly names Shah Alam City Council at Tahap 1 in 2023; Petaling
+Jaya also appears in search results for 2023. Neither is coded.
+
+Coding notes:
+- One row per place per programme round (29 rows). The treatment table later takes each place's earliest year.
+- MSCF pilots are coded implementation support, as Indonesia's programme is: the framework assigns each pilot city
+  project briefs with lead agencies. No national transfer is stated. Date is the launch, 23 September 2019, so the first
+  treated year is 2020. Four of the five (Kuala Lumpur, Johor Bahru, Kota Kinabalu, Kuching) joined the ASEAN Smart
+  Cities Network in April 2018 and are treated from 2018 by ascn.csv; Kulim is the only place the framework adds. The
+  pilot area of each city is its listed councils (area_as_printed), linked to districts when units are built; Johor Bahru
+  covers MBJB, MBIP and MPPG (close to Johor Bahru district) and Kulim covers the Kulim council and Kulim Hi-Tech Park
+  (close to Kulim district).
+- The rating is coded certification: a voluntary rating of councils against MS ISO 37122:2019, with a RM200,000
+  allocation to rated councils in 2023 and project allocations to rated councils in 2024.
+- 2023 round, dated 9 November 2023, first treated year 2024. Only 4 of 25 to 29 rated councils are named: Kajang and
+  Ipoh from their own pages; Johor Bahru and Putrajaya because they were rated Tahap 2 in 2024, which only councils rated
+  Tahap 1 in 2023 could apply for. All four are flagged "roster: partial". KPKT counts 29 recipients and the Kajang page
+  25; the gap may be awards other than Tahap 1, which the saved text does not settle.
+- Main specification: Malaysian unit-years in 2024 are dropped, because about 25 to 29 councils entered the rating on
+  9 November 2023 and most are unnamed, so in 2024 rated and unrated districts cannot be told apart. A sensitivity check
+  keeps Malaysia 2024 with the 4 named councils treated.
+- 2024 round, dated 28 October 2024, first treated year 2025, after the panel (outcomes end in 2024). The 20 rows are
+  kept for documentation and so that no 2024-rated council is used as a never-treated control in a later extension.
+  Johor Bahru and Putrajaya appear in both rounds.
+- place_en translates the council type (Majlis Bandaraya = City Council, Majlis Perbandaran = Municipal Council, Majlis
+  Daerah = District Council, Perbadanan = Corporation); "Langkawi Bandaraya Pelancongan" is Langkawi's tourism-city title.
+  Kuching Selatan is Kuching South. Councils are linked to districts against the boundary file when units are built.

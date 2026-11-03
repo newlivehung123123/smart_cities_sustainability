@@ -1,0 +1,89 @@
+Sources for korea_molit_smart_city.csv, read 1 Nov 2026. Built by scripts/designations/05_korea_molit.py.
+Passages are copied from the PDF or page text after NFKC normalisation; the PDF text layer drops most spaces, so spacing
+below follows the printed release where it could be read. The script checks every place against its source with spaces removed.
+
+Access: korea.kr releases and attachments were fetched directly (pressReleaseView.do?newsId=N; common/download.do?fileId=F&tblKey=GMN).
+The smartcity.go.kr pages are Wayback Machine copies (the live portal was not reachable). korea.kr releases are published under
+KOGL Type 1 (attribution). The licence of the smartcity.go.kr copies is still to be checked before the raw files are pushed.
+
+[1] National Pilot Smart Cities, 29 Jan 2018. https://www.korea.kr/briefing/pressReleaseView.do?newsId=156251178, PDF fileId 191962323
+(saved as MOLIT_2018-01-29_national_pilot_cities.pdf)
+"5년 내 세계 최고 수준 스마트시티 조성한다! - 국가 시범도시, 세종 5-1 생활권‧부산 에코델타시티 2곳 선정"
+Page 3: "세종 5-1생활권(83만평)"; "부산 에코델타시티(세물머리지역 중심, 66만평)"
+Footnote on the special plan programme: "'18~'20년, 年4곳 추진(국비 2.25억원/곳)" (not coded; the 2019 places are row group [3])
+
+[2] Theme-type special complex construction, 8 Feb 2019. newsId 156316456 (saved as MOLIT_2019-02-08_theme_complex_construction.pdf)
+"※ 통신‧방송‧인터넷은 2.8.(금) 06:00 이후 보도 가능" "대전.김해.부천, 한국형 스마트도시로...60억원 지원"
+"2019년 「테마형 특화단지 조성사업*」 지원대상지로 대전광역시, 경상남도 김해시, 경기도 부천시 3곳을 선정하였다고 밝혔다."
+The release also says support continues to "2021년까지 총 12개 지자체".
+
+[3] Town master plans, 17 Mar 2019. newsId 156321798, PDF fileId 191903335 (saved as MOLIT_2019-03-17_theme_complex_master_plans.pdf)
+"※ 통신‧방송‧인터넷은 3.17.(일) 11:00 이후 보도 가능"
+"경남 통영시, 부산 수영구, 서울 성동구, 충남 공주시·부여군 4곳 스마트도시 특화 종합계획 수립 국고지원"
+Tongyeong: "‘재래시장 활성화’를 위해 온라인 시장 서비스, 스마트 체험경매 ..."
+Suyeong: "지역 내 3개 관광권역별 차별화 서비스"; "남천동 일원"; "광안리 해수욕장"; "민락동 회센터 주변"
+Seongdong: "‘교통중심 왕십리’ 사업"; "왕십리 일원에 체계화된 스마트 교통서비스 도입"
+Gongju and Buyeo: "인접한 2개 지자체간 협력을 통해 공동으로 사업계획을 제출한 공주시와 부여군"; page 8 "위치 : 공주시·부여군 백제역사유적지구 일대(약 1,500,000m2)"
+
+[4] Smart City Challenge, 2 May 2019. newsId 156329670 (saved as MOLIT_2019-05-02_city_challenge.pdf)
+"2019년 스마트시티 챌린지 사업 공모 결과 광주광역시, 경기도 부천시, 수원시, 경남 창원시, 대전광역시, 인천광역시 등 총 6곳(이상 ‘가나다’순)을 최종 선정했다."
+Areas: 광주 "충장로 일대"; 부천 "신흥동 원도심 주거지 일원"; 수원 "행궁동"; 창원 "진북 일반산업단지와 낙후된 주거지역"; 대전 "중앙시장 일원"; 인천 "영종국제도시"
+
+[5] 2020 main projects, 16 Feb 2020. https://smartcity.go.kr/2020/02/16/스마트-시티-타운-챌린지-본사업-대상-총-7개-지역-선정/ (Wayback copy,
+saved as MOLIT_smartcity_2020-02-16_challenge_main.html)
+"스마트챌린지 본사업 7개 지역 선정 – 기업과 함께 만드는 시티챌린지에 대전, 부천, 인천 선정 ... – 시민이 직접 참여하는 타운챌린지에는 통영, 공주‧부여, 부산수영, 서울성동 선정"
+The release lists the 2019 preliminary projects as 10 places: (시티) 광주, 대전, 부천, 수원, 인천, 창원; (타운) 공주·부여, 부산 수영구, 서울 성동구, 통영시.
+Areas: "경남 통영은 대표 관광지인 동피랑 마을 인근 중심으로"; "부산 수영은 ... 광안리 해수욕장 일대"; "서울 성동은 5개의 도로망과 5가지 지하철의
+결절점인 왕십리 광장을 중심으로"; "충남 공주·부여는 백제역사유적지구를 연계한 ‘스마트 백제길’"
+
+[6] 2020 round, 28 May 2020. PDF https://www.korea.kr/common/download.do?fileId=191880393&tblKey=GMN (saved as MOLIT_2020-05-28_smart_challenge_18.pdf)
+Page 1 table "<사업 선정결과> *가나다순":
+시티챌린지: 강원 강릉; 부산광역시 (교통약자를 위한 무장애 교통환경 시스템); 경남 김해; 제주도
+타운챌린지: 강원 원주; 전남 광양; 경남 창원 (진해해양공원 스마트 관광타운); 충남 서산 (산업단지 스마트 안전·교통·환경 서비스)
+솔루션챌린지: 강원 양구; 충청 서산 (드론 활용 도서지역 물품배송); 서울 강동; 청주; 양천; 호남 광산; 영남 거제 (포로수용소 유적공원 스마트파크);
+순천; 사천; 완주
+
+[7] 2021 solution diffusion, 4 Mar 2021. https://smartcity.go.kr/2021/03/04/우수-솔루션-확산·규제-없는-실증사업으로-스마트시/ (Wayback copy,
+saved as MOLIT_smartcity_2021-03-04_solution_diffusion.html)
+"「스마트챌린지 솔루션 확산사업」 대상지로 서울 구로구 등 전국 23곳*(총 600억원 규모)의 도시를 선정하였다"
+"* 서울 구로, 동작, 중구/부산 남구/대구 달서구, 동구/인천 서구/광주 남구/경기 광명, 구리, 성남, 수원, 평택/강원 춘천, 태백/충북 충주/
+충남 논산, 홍성/전북 김제/전남 여수/경북 영주/경남 밀양, 진주"
+
+[8] 2021 main projects, 18 Mar 2021. newsId 156441764, PDF fileId 194195708 (saved as MOLIT_2021-03-18_challenge_main_6.pdf)
+"※ 통신‧방송‧인터넷은 3.18.(목) 11:00 이후 보도 가능"
+"스마트챌린지 본사업 6개 지역 선정 - 도시 전역을 보다 스마트하게... 시티챌린지에 부산, 제주, 강릉 선정 - 지역 맞춤형 특화서비스... 타운챌린지에 광양, 서산, 원주 선정"
+"1년간 예비사업을 수행했던 11개 지자체* ... * (시티) 강릉, 김해, 광주, 부산, 수원, 제주, 창원 (타운) 광양, 서산, 원주, 창원"
+Busan: "교통약자 비율이 36.5%*인 동구를 중심으로"
+
+[9] 2021 campus and town, 30 Mar 2021. newsId 156443652, PDF fileId 194302664 (saved as MOLIT_2021-03-30_campus_and_town.pdf)
+"캠퍼스챌린지(8개 대학) 한신대학교, 안양대학교, 연세대학교, 한국교통대학교, 계명대학교, 성신여자대학교, 동아대학교, 공주대학교
+타운챌린지(4개 도시) 경북 김천시, 경기 과천시, 강원 양양군, 경기 오산시"
+Test sites read from the eight project paragraphs: 한신대 부천시; 안양대 안양시; 연세대 신촌역 상권; 한국교통대 "캠퍼스 통행시간 단축";
+계명대 대구 성서지역과 월배지역; 성신여대 서울 성북구 전통시장; 동아대 공공청사(사하구청); 공주대 "지방소도시" (no place named)
+
+[10] 2021 city preliminaries, 26 Apr 2021. https://smartcity.go.kr/2021/04/26/스마트-챌린지-선정-45개-도시-똑똑한-도전-나선다/ (Wayback copy,
+saved as MOLIT_smartcity_2021-04-26_city_prelim.html)
+"– 시티 예비사업 4곳 선정으로 스마트챌린지 45곳 모두 선정 완료 – 대구·춘천·충북·포항 중 본사업 2곳 내외 선정(각 200억원 규모)"
+"① 대구광역시 : AI 기반 도심 교통서비스"; "② 강원 춘천 : 시민참여형 탄소제로 도시 구현";
+"③ 충청북도 : 스마트 응급의료 및 자율주행 모빌리티 서비스 ... 충북혁신도시, 오송, 오창 지역"; "④ 경북 포항 : 시민이 편리한 도로안전‧교통서비스"
+
+Coding notes:
+- 87 rows, 85 project_ids. Counts checked by script: 2 pilot cities [1]; 10 Smart Challenge places in 2019 ([3] and [4], as listed in [5]);
+  7 main projects in 2020 [5]; 18 projects in the 2020 round [6]; 28 places selected 2019 to 2020; 23 diffusion places [7]; 6 main
+  projects in 2021 [8]; 8 campus and 4 town projects [9]; 45 projects in 2021 [10].
+- Programme model implementation support throughout: every round funds projects in the selected places with national money.
+- Announcement date is the embargo or online release date (day precision). Every round falls in January to June, so
+  first_treated_year is the release year.
+- The 2019 town master plans [3] were a separate grant (테마형 특화단지 종합계획 수립 지원) but [5] counts them among the 2019 Smart
+  Challenge preliminary projects (renamed Town Challenge), so they are coded with the Smart Challenge.
+- Main projects in 2020 [5] and 2021 [8] repeat places already selected as preliminary projects; only the first selection sets the
+  treated year. They are kept to show which places went on to the larger grant.
+- Joint proposals (Gongju and Buyeo) have one row per municipality and one project_id.
+- area_scope: part where the release names an area inside the place (both pilot cities, which were new towns under construction;
+  the 2019 town and city areas; the four town areas of [5]; Changwon and Seosan towns, Seosan islands and Geoje in [6]; Busan in [8];
+  every campus project). Jeju and Chungcheongbuk-do are prefecture. All other rows are whole.
+- The 2019 construction programme [2] and the 2021 campus challenge [9] are not in design Table 1 and are kept for sensitivity checks only.
+- Not coded: the integrated platform programme (통합플랫폼), smart urban regeneration (스마트도시형 도시재생), regional hub (지역거점) and
+  강소형 programmes, and the 2018 to 2020 special plan footnote in [1] except where [5] shows it became the Smart Challenge.
+- Design Table 1 correction: "45 sites" is the 2021 round only; 2019 to 2021 together give 73 Smart Challenge selections
+  (10 + 18 + 45), some of them repeat selections of the same place.

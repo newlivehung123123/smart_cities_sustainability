@@ -1,0 +1,74 @@
+Sources for philippines_dict_digital_cities.csv, read 1 Nov 2026. Built by scripts/designations/08_philippines.py.
+Passages are copied from the saved text (philippines_saved/*.txt, made from the html or PDF saved the same day). The
+script reads the list of 25 locations from all three sources below and stops if they differ.
+The ASEAN Smart Cities Network members in the Philippines (Manila, Cebu City, Davao City from 2018; Cauayan City from
+2025) are in ascn.csv, not here. No national smart city designation programme with a named list of places was found.
+
+Access: pna.gov.ph and the DICT primer returned 404 or 403 to a direct request, so the Wayback Machine copies were saved
+(raw "id_" captures). GMA News and the DICT programme page loaded (the DICT page also from Wayback). A page of the IT and
+Business Process Association of the Philippines (IBPAP) on the programme returned 404 and has no Wayback copy; it is not
+needed. Licences of the saved news pages are to be checked before any raw file is pushed.
+
+[1] Philippine News Agency (the government news agency), "25 PH cities chosen to be next ‘digital cities’ by 2025",
+By Raymond Carl Dela Cruz, "June 30, 2020, 8:17 pm", https://www.pna.gov.ph/articles/1107517 (Wayback capture of
+10 July 2020, saved as pna_1107517_wayback_20200710.html):
+"Rey Untal, president and CEO of IBPAP, identified the 25 cities as Balanga City, Batangas City, Cabanatuan City, Dagupan
+City, General Santos City, Iligan City, Iriga City, Laguna Cluster (San Pablo, Calamba, and Los Baños), Laoag City,
+Legazpi City, Malolos City, Metro Cavite (Bacoor City, Imus, and General Trias), Metro Rizal (Taytay, Cainta, Antipolo
+City), Olongapo City, Puerto Princesa City, Roxas City, San Fernando, La Union, San Fernando City, Pampanga, San Jose Del
+Monte City, Tacloban City, Tagbilaran City, Tarlac City, Tuguegarao City, Urdaneta City, and Zamboanga City."
+"these cities will receive tailor-fit interventions aside from institutional, development, and infrastructure
+developments, marketing, and promotion." The programme "is supported by the Duterte Administration’s Administrative
+Order No. 18, series of 2019 (AO-18) ... and Executive Order No. 114 (EO-114)". DICT: "the 25 cities will receive
+“targeted efforts” including improving connectivity", through partnerships with telecommunications companies.
+
+[2] GMA News, "DICT, IBPAP, Leechiu pick 25 cities as next IT-BPM hubs", By TED CORDERO, "Published June 30, 2020
+4:49pm", https://www.gmanetwork.com/news/scitech/technology/744836/dict-ibpap-leechiu-pick-25-cities-as-next-it-bpm-hubs/story/
+(saved as gma_744836.html). Prints the same 25 one per line, in the same order ("San Fernando City, La Union";
+"Metro Rizal (Taytay, Cainta, and Antipolo City)"). "The 25 cities selected by the three organizations were based on
+certain parameters for investors and locators such as talent availability, infrastructure, cost, and business
+environment." "The Centers of Excellence refer to cities that are already established IT-BPM hubs such as Metro Manila,
+Metro Cebu, Metro Clark, Bacolod City, Davao City, and Iloilo City." "New Wave Cities, meanwhile, are developing
+locations that support IT-BPM operations. These include the cities of Baguio, Cagayan de Oro, Dasmarinas, Dumaguete,
+Lipa, Naga, and Sta. Rosa in Laguna."
+
+[3] DICT, IBPAP and LPC, "Digital Cities 2025 Location Primer", https://dict.gov.ph/wp-content/uploads/2021/11/Digital-Cities-2025-Primer.pdf
+(Wayback capture of 26 June 2022, saved as DICT_Digital-Cities-2025-Primer_wayback_20220626.pdf, 60 pages).
+p. 3: "In 2018, with the help of the National ICT Confederation of the Philippines (NICP), DICT and IBPAP rebranded Next
+Wave Cities TM into Digital Cities"; "This 2020, DICT, IBPAP, and LPC launched Digital Cities 2025 to further highlight
+the value of countryside development and the capability of key locations outside Metro Manila to become thriving
+business districts and viable investment hubs for IT -BPM services."
+p. 4: the scorecard rates locations on "talent availability, infrastructure, cost-effectiveness, and business
+environment".
+Table of contents, "Location Profiles": the same 25 in the same order. Cluster headings: "Laguna Cluster (Calamba City,
+Los Baños, San Pablo City)", "Metro Cavite (Bacoor City, Imus City, General Trias)", "Metro Rizal (Antipolo City, Cainta,
+and Taytay )".
+p. 59, "Phase 2 Interventions": "Aside from the identification of the 25 Digital Cities for 2025, DICT, in collaboration
+with IBPAP, also aims to provide the necessary support in 4 areas: institutional development, talent attraction and
+development, infrastructure development, and marketing and promotion." Listed initiatives include "Creation &
+Strengthening of ICT Councils", "Creation of Local Roadmap", "Local Digital Workforce Program" and "Internet Projects
+with Telecommunication Companies".
+
+[4] DICT programme page, https://dict.gov.ph/digital-cities-2025/ (Wayback capture of 3 December 2021, saved as
+dict_digital-cities-2025_wayback_20211203.html). Links the primer and seven city roadmaps, all in the upload folder
+2021/11: General Santos City, Batangas City, Zamboanga City, Tuguegarao City, Taytay Rizal, Puerto Princesa City and
+Legazpi City. The roadmaps were not opened.
+
+Coding notes:
+- Digital Cities 2025 promotes locations for IT and business process management (IT-BPM) investment. It is not a smart
+  city programme: its criteria are talent, infrastructure, cost and business environment, and its support is for the
+  IT-BPM industry. The main specification therefore does not code it: the 25 locations are untreated in the Philippines
+  unless they are ASEAN Smart Cities Network members (none of the 25 is).
+- Two sensitivity checks use these rows: (a) the 25 locations are coded treated from 2020, as implementation support
+  (DICT and IBPAP support in four areas; no transfer to the cities is stated); (b) the 25 locations are dropped from the
+  control group, because DICT connectivity and digital government support may affect them.
+- Date is the launch, 30 June 2020 (both news reports). Under the half-year rule (month 6 or earlier) the first treated
+  year is 2020, so the launch sits on the rule's boundary.
+- The three clusters give one row per local government unit with a shared project_id (25 project_ids, 31 rows).
+  place_as_printed is the name in the GMA list; place_en is the name in the primer's profile heading. Units in the
+  Philippines are linked when the unit file is built (geoBoundaries ADM2 in the Philippines are provinces, so the unit
+  level for the Philippines is decided then).
+- The seven roadmap cities are flagged in the note; the flag is descriptive and not used to define treatment.
+- Centers of Excellence and Next Wave Cities are earlier IT-BPM location labels (Next Wave Cities since 2009, per the
+  primer), not part of the 2020 selection, and are not coded. New Clark City is a construction project of the Bases
+  Conversion and Development Authority, not a designation of existing places, and is not coded.

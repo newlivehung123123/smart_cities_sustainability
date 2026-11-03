@@ -1,0 +1,101 @@
+Sources for japan_sdgs_future_cities.csv and japan_super_city.csv, read 1 Nov 2026. Passages copied verbatim
+(PDF text after NFKC normalisation). Built by scripts/designations/03_japan_sdgs_and_supercity.py.
+
+SDGs Future Cities (SDGs未来都市) and Municipal SDGs Model Projects (自治体SDGsモデル事業)
+Base URL https://www.chisou.go.jp/tiiki/kankyo/teian/ . For each round the press release, the Future City list and the
+Model Project list are saved as CAO_sdgs_<year>_press.pdf, CAO_sdgs_<year>_future_cities.pdf and
+CAO_sdgs_<year>_model_projects.pdf (no Model Project list in 2025).
+
+[1] 2018 round, pdf/result01.pdf (press), result02.pdf (cities), result03.pdf (models)
+"平成30年6月15日"
+"平成30年6月15日、公募の結果、…29都市を「SDGs未来都市」として選定。また、特に先導的な取組10事業を「自治体SDGsモデル事業」として選定。"
+
+[2] 2019 round, 2019sdgs_pdf/sdgsfuturecitypress0701.pdf, sdgsfuturecity2019.pdf, sdgsmodel2019.pdf
+"令和元年7月1日"
+"SDGs未来都市:31 都市"
+
+[3] 2020 round, 2020sdgs_pdf/sdgs_r2futurecity_press0701.pdf, sdgs_r2futurecity.pdf, sdgs_r2model.pdf
+Release dated "令和2年7月16日"
+"令和2年7月17日に下記のとおり選定いたしますのでお知らせします"
+"報道解禁日時 令和2年7月17日(金)13:00以降"
+"SDGs未来都市:33都市(34自治体) 自治体SDGsモデル事業:10事業"
+The 34th municipality is the joint proposal 大阪府・大阪市.
+
+[4] 2021 round, 2021sdgs_pdf/05_puresuissiki.pdf, 03_miraitosiitiran.pdf, 04_moderujigyouitiran.pdf
+"大臣閣議後会見(5月21日(金)午前)後に報道解禁"
+"SDGs未来都市:31 都市(31 自治体)"
+
+[5] 2022 round, 2022sdgs_pdf/ (same file names as 2021)
+Release dated 令和4年5月19日; "(5月20日(金)午前)後に報道解禁"
+"30 都市(30 自治体)"
+
+[6] 2023 round, 2023sdgs_pdf/ (same file names as 2021)
+Release dated 令和5年5月18日; "5月19日(金)午前11時に報道解禁"; ceremony 5月22日
+"28 都市(28 自治体)"
+
+[7] 2024 round, 2024sdgs_pdf/04_R6puresuissiki.pdf, 06_R6miraitosiitiran.pdf, 07_R6moderujigyouitiran.pdf
+Release dated 令和6年5月20日; "5月21日(火)午前11時に報道解禁"; ceremony 5月23日
+"24 都市(24 自治体)"
+Model Project list: "(注1) 鹿児島県奄美市は2023年SDGs未来都市選定"
+
+[8] 2025 round, 2025sdgs_pdf/01_puresushiryou.pdf, 03_R7miraitoshiichiran.pdf
+"令和7年6月23日"
+"SDGs未来都市:9都市(9自治体)"
+
+[9] Summary 2018 to 2024, https://www.chisou.go.jp/tiiki/kankyo/pdf/gaiyou1.pdf (saved as CAO_sdgs_summary_2018-2024.pdf)
+"SDGs未来都市:206都市(207自治体)自治体SDGsモデル事業:70都市"
+"(新潟県佐渡市の「自治体SDGsモデル事業」選定は2023年度)"
+"(鹿児島県奄美市の「自治体SDGsモデル事業」選定は2024年度)"
+"※都道府県が選定されている場合は全域を着色"
+
+[10] MIC municipal code list, 1 Jan 2024, https://www.soumu.go.jp/main_content/000925835.xlsx
+(page https://www.soumu.go.jp/denshijiti/code.html, "（令和6年1月1日更新）"; saved as MIC_municipal_codes_2024-01-01.xlsx)
+Used for the kana readings behind place_en, and later for JIS codes in the treatment table.
+
+Coding notes:
+- Announcement date is the press embargo date where one is printed (2020 to 2024), otherwise the release date.
+  Every round falls in May to July, so first_treated_year is the round year except 2019 (1 July) and 2020 (17 July),
+  which move to 2020 and 2021.
+- SDGs Future Cities = certification: a label awarded to proposing municipalities. Each row notes that the 2024 summary
+  (別紙1) allows one further application to the regional revitalisation grant (地方創生推進交付金) outside the usual cap.
+- Municipal SDGs Model Projects = implementation support: a subsidy to the selected project, up to 20 million yen
+  per city in 2024 (別紙1).
+- Counts checked by script: 206 Future City project_ids 2018 to 2024 and 70 Model Project project_ids, as in [9];
+  every round matches its press release; every Model Project city is also a Future City.
+- 大阪府・大阪市 (2020, both programmes) becomes two rows, Osaka Prefecture (area_scope prefecture) and Osaka city,
+  with one project_id.
+- A row naming only a prefecture is area_scope prefecture; [9] colours the whole prefecture in that case.
+- Sado (Model Project 2023, Future City 2022) and Amami (Model Project 2024, Future City 2023) carry notes, per [7] and [9].
+- 2025 rows are noted "after the panel".
+- The radical ⻄ in the PDF text is replaced by 西.
+- place_en is Hepburn without macrons from the MIC kana: ou, oo become o and uu becomes u; ン before b, m, p becomes m.
+  Overrides: 広陵町 Koryo (MIC prints ｺｳﾘﾖｳ with a large ﾖ) and 群馬県 Gunma.
+
+Super City and Digital Garden Health Special Zones
+[11] Cabinet Office release on the 53rd Council on National Strategic Special Zones,
+https://www.chisou.go.jp/tiiki/kokusentoc/dai53/Release.pdf (saved as CAO_supercity_2022-03-10_release.pdf);
+proposal summary dai53/shiryou3.pdf (saved as CAO_supercity_2022-03-10_proposals.pdf)
+"令和4年3月10日 … スーパーシティ型国家戦略特区として、つくば市及び大阪市を、デジタル田園健康特区(仮称)として、吉備中央町、茅野市及び加賀市を指定することが、同会議として決定されました。"
+"スーパーシティは、地域のデジタル化と規制改革を行うことにより、…"
+"対象エリアは、つくば市全域"
+"対象エリアは、万博予定地の夢洲、大阪駅北の「うめきた2期」の二つの新規開発エリア"
+
+[12] Zone council materials, kokusentoc/osaka/dai1/shiryou2.pdf and kokusentoc/tsukubashi/dai1/shiryou2.pdf
+(saved as CAO_supercity_osaka_council1.pdf and CAO_supercity_tsukuba_council1.pdf), timeline dated 令和5年10月11日
+"4月16日提案締め切り(31の地方公共団体から提案)"
+"4月12日政令閣議決定(スーパーシティとしてつくば市及び大阪市、デジタル田園健康特区として加賀市、茅野市及び吉備中央町を指定)"
+"7月20日先端的サービスの開発・構築等に関する調査事業を採択・公表" (2022)
+"7月7日先端的サービスの開発・構築や先端的サービス実装のためのデータ連携等に関する調査事業を採択・公表" (2023)
+
+Coding notes:
+- Announcement date 10 March 2022 (council decision), so first_treated_year = 2022; the cabinet order of 12 April 2022
+  is recorded in the note and gives the same year.
+- Tsukuba is area_scope whole; Osaka is part (Yumeshima and Umekita phase 2), flagged.
+- Coded certification for now: the release names digitalisation and regulatory reform and no funding. [12] records
+  Cabinet Office survey projects (調査事業) adopted on 20 July 2022 and 7 July 2023, but the places funded are not
+  named there, and the Super City index page (kokusentoc/supercity/index.html) returned "Page Not Found" on 1 Nov 2026.
+  If those projects went to the designated zones, the rule in dataset_plan.md section 2 makes Super City
+  implementation support. The main specification codes certification and a check codes implementation
+  support (dataset_plan.md section 6).
+- The three Digital Garden Health Special Zones are not in the design's Table 1 and are kept for a sensitivity check
+  only; they share project_id DH2022-1.

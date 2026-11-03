@@ -1,0 +1,58 @@
+Sources for macau_smart_city.csv and for the economies with no national designation list (Mongolia, Timor-Leste,
+Brunei, Cambodia, Laos, Myanmar), read 1 Nov 2026. Built and checked by scripts/designations/11_macau_others.py.
+Passages are copied from the saved text (macau_saved/*.txt and others_saved/*.txt, made from the html or PDF saved the
+same day). The ASEAN Smart Cities Network members of these economies are in ascn.csv, not here: Bandar Seri Begawan;
+Battambang, Phnom Penh and Siem Reap (2018) and Sihanoukville (2024); Luang Prabang and Vientiane; Mandalay, Nay Pyi Taw
+and Yangon (all 2018 unless stated); Dili (2026, after the panel ends).
+
+Access: macau gov.mo (one page 404), phnompenhpost.com (403), mdn.gov.mm (403), thescoop.co (429, Wayback also 429),
+fukuoka.unhabitat.org (307) and se.uni-oldenburg.de (no connection) were not saved. Nothing is coded from a page that was
+not saved and read.
+
+[1] Macao, Government Information Bureau, "Developing Macao as a smart city to optimise services to the public", Office of
+the Government Spokesperson, 2017-08-14 21:32, https://www.gcs.gov.mo/news/detail/en/N17HN4XH2R (saved as
+macau_saved/gcs.gov.mo_news_detail_en_N17HN4XH2R.html):
+"The Government and Alibaba Group signed on 4 August a “Framework Agreement of Strategic Cooperation on Smart City
+Development”, encompassing a series of projects to upgrade Macao’s development in the fields of cloud computing and big
+data technology, spanning from 2017 to 2021"; "Building Macao as a smart city is a Government policy outlined in the
+city’s Five-Year Development Plan." The phase table lists "First phase (August 2017 to June 2019)" (cloud computing centre,
+tourism, IT training, transportation management, medical services, urban management, financial technology) and "Second
+phase (July 2019 to June 2021)" (including "Environmental protection").
+
+[2] Mongolia. Chief of the Mayor's Office of Ulaanbaatar, statement to a UN sustainable development meeting (undated,
+data "as of 2013"), https://sdgs.un.org/sites/default/files/statements/6883Mr.Gerelchuluun-Chief%20%20of%20the__%20Mayor%27s%20Office%202.pdf
+(saved as others_saved/mongolia_un_mayors_office.pdf, 23 pages), p. 22: "Master Plan is approved and being implemented
+in order to make green and smart city." This is the capital's own master plan for 2020 to 2030, not a national selection
+of places.
+
+[3] Laos. Vientiane Times/ANN, "Smart city project tops agenda at monthly Lao gov’t meeting", reposted by Open
+Development Laos on 2019-10-31,
+https://laos.opendevelopmentmekong.net/news/smart-city-project-tops-agenda-at-monthly-govt-meeting/ (saved as
+others_saved/laos_odm_smart-city-project-tops-agenda.html; summary licensed CC BY-SA 4.0 by Open Development Laos, the
+article itself copyrighted by its source): "A plan to create “smart” and “eco” cities in Luang Namtha, and Oudomxay
+provinces topped the agenda at the government’s monthly meeting for October." A plan discussed in cabinet, not a
+designation; no later approval or list was found.
+
+[4] Myanmar. Eleven Myanmar, "Smart city projects under development in Nay Pyi Taw, Yangon and Mandalay", "Published
+23 December 2019", https://elevenmyanmar.com/node/150732 (saved as others_saved/myanmar_eleven_150732.html): "Ministry of
+Construction starts implementing the smart city projects in Nay Pyi Taw, Yangon and Mandalay, said Union Minister for
+Construction U Han Zaw." The rest of the report is on public housing. The three cities are the ASCN members of 2018.
+
+Searches run on 1 Nov 2026 (web search, English) for a national list of smart city places in each economy: Mongolia
+(national programme, government resolution), Cambodia (Ministry of Interior, pilot list beyond ASCN), Laos (Ministry of
+Public Works and Transport, decree), Myanmar (Ministry of Construction, selected cities), Brunei (Digital Economy
+Masterplan 2025, designation of the capital), Timor-Leste (national programme). None returned a government list naming
+places. Search results pointed to a national roadmap and a Ministry of Interior steering committee in Cambodia and to
+sub-national action plans for Siem Reap and Preah Sihanouk, and to Brunei's nationwide Digital Economy Masterplan 2025;
+these pages were not saved, and the places concerned are ASCN members already coded or the whole of Brunei.
+
+Coding notes:
+- Macau is coded "whole-city strategy" from the 4 August 2017 signing (first treated 2018). Macau is one unit and
+  is not estimated; the row only documents why Macau is kept out of the Singapore and Hong Kong donor pools.
+- Mongolia, Timor-Leste, Brunei, Cambodia, Laos and Myanmar have no national designation list. Their treated places are
+  their ASCN members; their other urban districts are untreated. Mongolia has no treated unit, so under economy-by-year
+  fixed effects its districts add no comparison within Mongolia; they stay in the Singapore and Hong Kong donor pools.
+  Timor-Leste's only treated place (Dili, 2026) is treated after the panel ends.
+- Plans by a city or province itself (the Ulaanbaatar master plan, the Luang Namtha and Oudomxay plan, Siem Reap and
+  Preah Sihanouk action plans) are self-adoption, not national designation, and are not coded, as for Vietnam's
+  provincial schemes.

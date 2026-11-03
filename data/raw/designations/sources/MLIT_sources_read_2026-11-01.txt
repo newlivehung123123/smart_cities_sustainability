@@ -1,0 +1,46 @@
+Sources for japan_mlit_model.csv, read 1 Nov 2026. Passages copied verbatim.
+
+[1] MLIT press release, 令和元年5月31日 (31 May 2019), page https://www.mlit.go.jp/report/press/toshi07_hh_000139.html ,
+PDF https://www.mlit.go.jp/common/001291866.pdf (saved as MLIT_smartcity_model_2019-05-31.pdf, 11 pages).
+Annex tables read from page images (text extraction scrambles the columns); every 対象区域 cell checked by eye.
+
+Cover page:
+"スマートシティモデル事業 いよいよ始動 ～先行モデルプロジェクト等の選定～"
+"●先行モデルプロジェクト １５事業（別紙１） スマートシティ実証調査予算を活用し、具体的な新しい取組みへの着手と事業の成果やボトルネック等の分析等を実施する"
+"●重点事業化促進プロジェクト ２３事業（別紙２） 専門家の派遣や計画策定支援等により、早期の事業実施を目指して重点的に支援を行います。"
+"●スマートシティ推進パートナー ７１団体（別紙３）"
+"国土交通省では、3 月 15 日から 4 月 24 日まで、新技術や官民データを活用しつつ都市・地域課題を解決するスマートシティモデル事業の公募を実施したところ、73 のコンソーシアムから提案をいただきました。"
+
+Coding notes:
+- Leading projects (先行モデル) receive the demonstration budget; priority projects (重点事業化促進) receive experts and planning support. Both are coded as implementation support, with the batch kept so either can be dropped.
+- The 71 partners (別紙3) are not coded as treated: partnership needed only "一定のレベルと意欲" and gave no project support of its own.
+- 対象区域 other than 全域 is coded area_scope = part. 島原半島 (Shimabara project) is coded wider; only 島原市 is named as a municipal partner.
+- Two projects span two municipalities (熱海市・下田市; 精華町・木津川市); each municipality has its own row with a shared project_id.
+
+[2] MLIT press release, 令和2年7月31日 (31 July 2020), page https://www.mlit.go.jp/report/press/toshi07_hh_000159.html
+(saved as MLIT_smartcity_2020-07-31_press.pdf, _annex1_leading.pdf (8 pages), _annex2_priority.pdf (1 page)).
+Leading (先行モデルプロジェクト), 7 projects, every one a 2019 priority project: さいたま市 大宮駅・さいたま新都心周辺地区;
+大田区 羽田空港跡地第1ゾーン(羽田イノベーションシティ); 新潟市 中心市街地(新潟駅周辺地区、万代地区、古町地区);
+岡崎市 乙川リバーフロントQURUWA地区; 大阪市 うめきた2期地区、夢洲地区; 加古川市 全域; 荒尾市 (南新地地区).
+Priority (重点事業化促進プロジェクト), 5 new projects, all 全域: 福島県南相馬市, 茨城県水戸市, 埼玉県熊谷市, 東京都東村山市, 石川県加賀市.
+The release also continues budget support for 7 of the 2019 leading projects; these are not new designations and add no rows.
+Announced 31 July, so first_treated_year = 2021.
+
+Joint selection from FY2021 (japan_joint_selection.csv)
+From FY2021, MLIT selects its smart city projects through one Cabinet Office joint review (スマートシティ関連事業合同審査会)
+covering five programmes. Each round's press release and annex 2 (別紙2, table of regions with one symbol per programme)
+are saved as CAO_smartcity_joint_<date>_press.html and _bessi2.pdf; annex 3 (detail table) where it exists.
+The annexes are the PDFs linked from each press page, under https://www8.cao.go.jp/cstp/stmain/pdf/.
+[3] 令和3年8月24日 https://www8.cao.go.jp/cstp/stmain/r3_smartcity_jigyou.html (saved as CAO_smartcity_joint_2021-08-24_press.html) "62地域、74事業を選定"
+    未来技術社会実装事業 9, データ連携促進型スマートシティ推進事業 9, 地域新MaaS創出推進事業 14, 日本版MaaS推進・支援事業 12,
+    国土交通省スマートシティモデルプロジェクト 30
+[4] 令和4年7月13日 https://www8.cao.go.jp/cstp/stmain/20220713smartcity.html "51地域、54事業を選定" (10, 13, 11, 6, MLIT 14)
+[5] 令和5年6月30日 https://www8.cao.go.jp/cstp/stmain/20230630smartcity.html "32地域、34事業を選定" (2, 5, 8, 6, MLIT 13)
+[6] 令和6年6月21日 https://www8.cao.go.jp/cstp/stmain/20240621smartcity.html "34地域、36事業を選定" (1, 8, MLIT 13, 6, 8)
+[7] 令和7年4月11日 https://www8.cao.go.jp/cstp/stmain/r7_smartcity_results.html "29事業を選定" (3, 2, MLIT 8, 5, 11)
+Annex 2 legends change in 2024: the MLIT smart city programme is ■ in 2021 to 2023 and ○ in 2024 and 2025.
+Annex 2 notes ※2/※3 state that スマートシティ実装化支援事業 is the same programme as the 2021 スマートシティモデルプロジェクト.
+The parsed per-programme counts match every press release total above (checked by script, 1 Nov 2026).
+Map labels printed on annex 2 are ignored; the table is used (the 2025 map labels item 27 ●, the table ■).
+Coding notes: one row per municipality named; a multi-municipality project shares one project_id. area_scope adds
+prefecture (only prefectures named) and unnamed (Yamanote line area; Harima Science Garden City). 2025 is after the panel.

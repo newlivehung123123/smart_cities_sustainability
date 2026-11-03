@@ -1,0 +1,27 @@
+unit_id,cluster_name,name_filled,name_ja,osm_type,osm_id,osm_prefecture,overlap_share,accepted
+22064153B22262945271660,Iwate,Fudai,普代村,relation,963766,Iwate Prefecture,0.9969,True
+22064153B42815652831414,Iwate,Ichinohe,一戸町,relation,963771,Iwate Prefecture,0.998,True
+22064153B52893965353266,Iwate,Kunohe,九戸村,relation,963779,Iwate Prefecture,0.9963,True
+22064153B55567026325895,Iwate,Kuzumaki,葛巻町,relation,963793,Iwate Prefecture,0.9984,True
+22064153B60558378980420,Saitama,Ogano,小鹿野町,relation,1765989,Saitama Prefecture,0.9974,True
+22064153B11347435242213,Saitama,Yokoze,横瀬町,relation,1768252,Saitama Prefecture,0.9957,True
+22064153B41312501853097,Saitama,Moroyama,毛呂山町,relation,1768276,Saitama Prefecture,0.9901,True
+22064153B55422469295161,Saitama,Ogose,越生町,relation,1768278,Saitama Prefecture,0.9949,True
+22064153B14191280892347,Saitama,Matsubushi,松伏町,relation,1768401,Saitama Prefecture,0.9926,True
+22064153B51464692079899,Saitama,Miyashiro,宮代町,relation,1768501,Saitama Prefecture,0.9914,True
+22064153B81183812222249,Saitama,Sugito,杉戸町,relation,1768503,Saitama Prefecture,0.9891,True
+22064153B1420949553929,Saitama,Ina,伊奈町,relation,1769174,Saitama Prefecture,0.9936,True
+22064153B79488910412367,Saitama,Kawajima,川島町,relation,1769177,Saitama Prefecture,0.9915,True
+22064153B83233320380459,Saitama,Tokigawa,ときがわ町,relation,1769193,Saitama Prefecture,0.9952,True
+22064153B7091731953162,Saitama,Ranzan,嵐山町,relation,1769194,Saitama Prefecture,0.989,True
+22064153B42446330332241,Saitama,Namegawa,滑川町,relation,1769195,Saitama Prefecture,0.9934,True
+22064153B84652164446594,Saitama,Hatoyama,鳩山町,relation,1769197,Saitama Prefecture,0.9933,True
+22064153B63829453739833,Saitama,Yorii,寄居町,relation,1769223,Saitama Prefecture,0.9937,True
+22064153B93622399148332,Saitama,Ogawa,小川町,relation,1769224,Saitama Prefecture,0.9936,True
+22064153B74511540229227,Saitama,Higashi-Chichibu,東秩父村,relation,1769226,Saitama Prefecture,0.9962,True
+22064153B67559782883122,Saitama,Minano,皆野町,relation,1769227,Saitama Prefecture,0.9948,True
+22064153B18486924389046,Saitama,Misato,美里町,relation,1769229,Saitama Prefecture,0.9941,True
+22064153B25299017238233,Saitama,Nagatoro,長瀞町,relation,1769230,Saitama Prefecture,0.9944,True
+22064153B42729341445185,Chiba,Shozokumiteichi,所属未定地,relation,2679919,Chiba Prefecture,1.0,True
+22064153B20100015994007,Saitama,Saitama,さいたま市,relation,1767047,Saitama Prefecture,0.9437,True
+22064153B45156088025009,Yamanashi,Fujiyoshida,富士吉田市,relation,4792100,Yamanashi Prefecture,0.997,True

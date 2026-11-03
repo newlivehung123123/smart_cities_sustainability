@@ -1,0 +1,73 @@
+Sources for thailand_depa_smart_city.csv, read 1 Nov 2026. Built by scripts/designations/04_thailand_depa.py.
+Thai digits in the notices are written here as Arabic digits; otherwise passages are copied as printed.
+
+Access: www.depa.or.th shows a bot check; the same pages and files are served at https://depa.or.th/ (no www).
+smartcitythailand.or.th refused connections on 1 Nov 2026.
+
+[1] depa list page, https://depa.or.th/th/smart-city-plan/existing-smart-city (saved as depa_existing-smart-city_2026-11-01.html)
+"มีเมืองที่ได้รับการประกาศเป็นเมืองอัจฉริยะจำนวน 37 เมือง (ข้อมูล ณ ส.ค. 68) และเมืองที่เป็นเขตส่งเสริมจำนวน 190 เมือง"
+"เมืองที่ผ่านการรับรองตราสัญลักษณ์เป็นเมืองอัจฉริยะ จากคณะอนุกรรมการขับเคลื่อนและบริหารโครงการเมืองอัจฉริยะและได้รับการเห็นชอบจากคณะกรรมการขับเคลื่อนการพัฒนาเมืองอัจฉริยะ"
+"15 เมืองอัจฉริยะ ที่ผ่านการรับรองโดยคณะอนุกรรมการขับเคลื่อนการพัฒนาเมืองอัจฉริยะ เมื่อวันที่ 13 สิงหาคม 2564 และ 28 ตุลาคม 2564"
+"15 เมืองอัจฉริยะ ... เมื่อวันที่ 27 สิงหาคม 2565"; "6 เมืองอัจฉริยะ ... เมื่อวันที่ 17 สิงหาคม 2566"
+"1 เมืองอัจฉริยะ ที่ผ่านการรับรองโดยคณะกรรมการดิจิทัลเพื่อเศรษฐกิจและสังคมแห่งชาติ เมื่อวันที่ 1 สิงหาคม 2568"
+The page links the notices [2] to [7] and an executive summary for 22 of the 37 projects (none for the 2022 batch).
+
+Notices [2] to [7] are page scans with no text layer; they were rendered to images and read by eye.
+Base URL https://depa.or.th/storage/app/media/SmartCity/Tab_SmartCity/
+
+[2] Announcement1_64.pdf (saved as depa_notice_subcommittee_1-2564.pdf)
+"ประกาศคณะอนุกรรมการขับเคลื่อนและบริหารโครงการเมืองอัจฉริยะ ที่ 1/2564 เรื่อง การมอบตราสัญลักษณ์เพื่อรับรองการเป็นพื้นที่พัฒนาเมืองอัจฉริยะ"
+"ประกอบกับมติคณะอนุกรรมการขับเคลื่อนและบริหารโครงการเมืองอัจฉริยะ ครั้งที่ 1/2564 เมื่อวันที่ 6 พฤษภาคม 2564 เห็นชอบรายชื่อโครงการแผนพัฒนาเมืองอัจฉริยะ"
+"ขอมอบตราสัญลักษณ์เพื่อรับรองการเป็นพื้นที่พัฒนาเมืองอัจฉริยะ เป็นระยะเวลา 2 ปี ดังนี้" (5 items)
+"ทั้งนี้ ตั้งแต่บัดนี้เป็นต้นไป" "สั่ง ณ วันที่ 13 สิงหาคม พ.ศ. 2564"
+Signed by the Minister of Digital Economy and Society as chair of the subcommittee.
+
+[3] Announcement2_64.pdf (saved as depa_notice_subcommittee_2-2564.pdf), "(ฉบับที่ 2)"
+"ครั้งที่ 2/2564 เมื่อวันที่ 23 กันยายน 2564"; 10 items; "สั่ง ณ วันที่ 28 ตุลาคม พ.ศ. 2564"
+
+[4] Announcement1_65.pdf (saved as depa_notice_subcommittee_1-2565.pdf), "(ฉบับที่ 3)"
+"ครั้งที่ 1/2565 เมื่อวันที่ 5 สิงหาคม 2565"; 15 items; "สั่ง ณ วันที่ 27 สิงหาคม พ.ศ. 2565"
+
+[5] 2023-Sep-update/66-1_announcement.pdf (saved as depa_notice_subcommittee_1-2566.pdf), "(ฉบับที่ 4)"
+"ครั้งที่ 1/2566 เมื่อวันพุธที่ 26 กรกฎาคม 2566"; 6 items; "สั่ง ณ วันที่ 17 สิงหาคม พ.ศ. 2566"
+
+[6] 2025-sep-update/68-smartcitygrant.pdf (saved as depa_notice_NDESC_award_2568.pdf). Despite the file name, an award of
+the logo, not a grant.
+"ประกาศคณะกรรมการดิจิทัลเพื่อเศรษฐกิจและสังคมแห่งชาติ เรื่อง การมอบตราสัญลักษณ์เพื่อรับรองการเป็นพื้นที่เมืองอัจฉริยะ"
+"ในคราวประชุมครั้งที่ 2/2568 เมื่อวันที่ 19 สิงหาคม 2568 เห็นว่าการเห็นชอบแผนการพัฒนาเมืองอัจฉริยะ โครงการภูเก็ตทินิคอนวัลเลย์ จังหวัดภูเก็ต"
+"ตามมติคณะกรรมการส่งเสริมการพัฒนาดิจิทัลเพื่อเศรษฐกิจและสังคม ในคราวประชุมครั้งที่ 2/2568 เมื่อวันที่ 1 สิงหาคม 2568"
+"จึงขอมอบตราสัญลักษณ์เพื่อรับรองการเป็นพื้นที่เมืองอัจฉริยะ ให้แก่ โครงการภูเก็ตทินิคอนวัลเลย์ จังหวัดภูเก็ต เป็นระยะเวลา 2 ปี"
+"ทั้งนี้ ตั้งแต่วันที่ 1 สิงหาคม 2568 เป็นต้นไป" "ประกาศ ณ วันที่ 4 กันยายน พ.ศ. 2568"
+
+[7] 2025-sep-update/68-1_announcement.pdf (saved as depa_notice_NDESC_renewal_2568.pdf), 2 pages
+"เรื่อง การต่ออายุตราสัญลักษณ์เพื่อรับรองการเป็นพื้นที่เมืองอัจฉริยะ"
+"จึงต่ออายุตราสัญลักษณ์เพื่อรับรองการเป็นพื้นที่เมืองอัจฉริยะ จำนวน 16 เมือง เป็นระยะเวลา 2 ปี ดังนี้"
+Items 1 to 16: แม่เมาะเมืองน่าอยู่; รอบคลองผดุงกรุงเกษม; ยะลาเมืองอัจฉริยะ; สามย่านสมาร์ทซิตี้; ขอนแก่นเมืองอัจฉริยะ;
+เมืองอัจฉริยะวังจันทร์วัลเลย์; นครเชียงรายสู่เมืองอัจฉริยะ; ภูเก็ตเมืองอัจฉริยะ; มหาวิทยาลัยเชียงใหม่เมืองอัจฉริยะ; เมืองศรีตรัง;
+โคราชเมืองอัจฉริยะ; แสนสุขสมาร์ตซิตี้; เมืองน่านสู่เมืองอัจฉริยะ; การพัฒนาเมืองเก่าอย่างชาญฉลาด; กระบี่เมืองอัจฉริยะ;
+ฉะเชิงเทราเมืองน่าอยู่
+"ทั้งนี้ ตั้งแต่วันที่ 1 สิงหาคม 2568 เป็นต้นไป" "ประกาศ ณ วันที่ 4 กันยายน พ.ศ. 2568"
+
+[8] Thailand Smart City Index 2023, Tab_Index/Smart%20City_TSCCI2023-for-public.pdf (saved as depa_TSCCI2023.pdf), page 1
+"36 เมือง 25 จังหวัด" and "126 เขตส่งเสริม ใน 49 จังหวัด"; page 2 "30 เมืองอัจฉริยะใน 23 จังหวัด"
+
+[9] Smart City Index booklet 2021, Tab_Index/Booklet-SmartCityIndex.pdf (saved as depa_SmartCityIndex_booklet_2021.pdf)
+"เมืองอัจฉริยะ จำนวน 15 เมือง (ข้อมูล ณ 28 ตุลาคม พ.ศ. 2564)"
+
+Coding notes:
+- One row per project (37), matching [1]. Counts per notice 5, 10, 15, 6, 1; the first three notices give 30 projects in
+  23 provinces and the first four 36 in 25, as in [8] (checked by script).
+- Announcement date is the date the notice was signed: each notice awards the logo "from now on" (2021 to 2023), and the
+  depa page dates the batches by these signing dates. The approving meeting date is in the note. Every notice falls in
+  July to December, so first_treated_year is the next year (2022, 2022, 2023, 2024; 2026 for Phuket Tinicon Valley, after
+  the panel). Using the meeting date instead would move only notice 1/2564 (meeting 6 May 2021) to 2021.
+- Programme model certification: a logo valid two years; no notice names funding. [6] is filed as "smartcitygrant" but is
+  an award of the logo.
+- place_as_printed is the local government named in the notice (เทศบาล, อบต.) if any, otherwise the province.
+  area_scope: part where the project line names an area smaller than that place (Mae Moh, Wangchan Valley, Samyan,
+  Rama 4, the area around Khlong Phadung Krung Kasem, Makkasan, Chiang Mai old town, Chiang Mai University, Tinicon Valley);
+  prefecture where only a province is named (13 rows, project area to be read from the executive summaries when units are
+  linked); whole where a local government is named.
+- The 16 projects renewed by [7] carry a note. The other 20 logos from 2021 to 2023 were not renewed in that notice;
+  treatment stays absorbing under dataset_plan.md section 2.
+- The 190 promotion zones (เขตส่งเสริม) in [1] are not coded: they are declared zones, not awards of the logo.

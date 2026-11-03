@@ -1,0 +1,14 @@
+Panel,,PM2.5,NO2
+"Panel A. Effect of designation, years 0 to 5 after designation (RQ1)",Imputation estimator,1.00 (−1.47 to 3.54) [0.431],−9.22 (−11.75 to −6.61) [< 0.001]
+"Panel A. Effect of designation, years 0 to 5 after designation (RQ1)","Equivalence test, p",0.001,0.999
+"Panel A. Effect of designation, years 0 to 5 after designation (RQ1)",Minimum detectable effect,1.79,2.98
+"Panel A. Effect of designation, years 0 to 5 after designation (RQ1)",Treated district-years,"2,869","2,851"
+Panel B. Checks of parallel trends,"Pre-designation test, F [p]",1.40 [0.197],6.52 [< 0.001]
+Panel B. Checks of parallel trends,"Sun and Abraham, year before designation as reference",0.59 (−2.26 to 3.52) [0.687],−3.33 (−4.76 to −1.88) [< 0.001]
+Panel B. Checks of parallel trends,"Callaway and Sant'Anna, doubly robust",0.40 (−1.46 to 2.55) [0.701],−2.13 (−4.31 to 0.22) [0.080]
+Panel B. Checks of parallel trends,Entropy balancing on pre-designation outcomes,1.87 (−0.81 to 4.91) [0.207],−1.42 (−4.03 to 0.53) [0.227]
+Panel B. Checks of parallel trends,District-specific linear trends,0.01 (−3.16 to 3.29) [0.994],−6.36 (−8.15 to −4.54) [< 0.001]
+Panel B. Checks of parallel trends,Breakdown value of M,none,0.11
+"Panel C. Difference between pollutants (H1) and night-time light, 2012 to 2024 (H2)","NO2 effect minus PM2.5 effect, log points x 100",−10.67 (−14.66 to −6.23),
+"Panel C. Difference between pollutants (H1) and night-time light, 2012 to 2024 (H2)",Night-time light,−21.31 (−25.40 to −16.99) [< 0.001],
+"Panel C. Difference between pollutants (H1) and night-time light, 2012 to 2024 (H2)",PM2.5 relative to night-time light,28.36 (20.06 to 37.24) [< 0.001],

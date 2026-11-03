@@ -1,0 +1,11 @@
+check,group,outcome,est,se,p,ci_lo,ci_hi,n_obs,n_clusters,note
+main,,ln_pm25,0.009968951980699615,0.012662201670146455,0.4311062416930791,-0.014848963292787436,0.03478686725418667,2869.0,328.0,
+"Conley standard error, 100 km",,ln_pm25,0.009968951980699615,0.00882097705864088,0.25841661783601044,-0.007320163054236509,0.02725806701563574,2869.0,,uniform kernel on district distance; cluster formula check 0.01266
+"Conley standard error, 250 km",,ln_pm25,0.009968951980699615,0.005769930830669232,0.08403448541400042,-0.0013401124474120788,0.021278016408811308,2869.0,,uniform kernel on district distance; cluster formula check 0.01266
+"economy clusters, wild bootstrap",,ln_pm25,0.009968951980699615,0.004310273778181538,0.1342134213421342,0.0015208153754638007,0.01841708858593543,,14.0,"Webb weights, 9999 draws, restricted, studentised; se is the analytic economy-clustered value"
+main,,ln_no2,-0.09668442612481735,0.014428664278294997,2.07199740586095e-11,-0.12496460811027554,-0.06840424413935917,2851.0,328.0,
+"Conley standard error, 100 km",,ln_no2,-0.09668442612481735,0.016525314839321497,4.89550025244404e-09,-0.1290740432098875,-0.06429480903974721,2851.0,,uniform kernel on district distance; cluster formula check 0.01443
+"Conley standard error, 250 km",,ln_no2,-0.09668442612481735,0.018758437384103148,2.547385736916703e-07,-0.13345096339765952,-0.05991788885197519,2851.0,,uniform kernel on district distance; cluster formula check 0.01443
+"economy clusters, wild bootstrap",,ln_no2,-0.09668442612481735,0.035652334116023914,0.09870987098709871,-0.1665630009922242,-0.026805851257410487,,14.0,"Webb weights, 9999 draws, restricted, studentised; se is the analytic economy-clustered value"
+randomisation inference within economies,,ln_pm25,0.009968951980699615,0.0046862263269871985,0.03196803196803197,,,,,1000 permutations of the designation year across districts of the same economy; se is the sd of the permutation estimates
+randomisation inference within economies,,ln_no2,-0.09668442612481735,0.009217777150779935,0.000999000999000999,,,,,1000 permutations of the designation year across districts of the same economy; se is the sd of the permutation estimates

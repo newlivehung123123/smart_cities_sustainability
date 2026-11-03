@@ -1,0 +1,31 @@
+{
+  "dropped_mys_2024": 52,
+  "district_years": 45068,
+  "pm25_at_or_below_zero": 0,
+  "pm25_area_at_or_below_zero": 0,
+  "no2_at_or_below_zero": 0,
+  "no2_area_at_or_below_zero": 0,
+  "no2_clipping_rule": 109,
+  "missing_pm25": 0,
+  "missing_pm25_area": 0,
+  "missing_no2": 470,
+  "missing_no2_area": 361,
+  "missing_no2_all": 361,
+  "covariates_fires": [
+    "ln_fire_100km",
+    "ln_fire_300km",
+    "ln_fire_500km"
+  ],
+  "covariates_light": [
+    "ntl",
+    "built"
+  ],
+  "covariates_weather": [
+    "t2m",
+    "tp",
+    "wind10"
+  ],
+  "districts": 2256,
+  "clusters": 328,
+  "treated_by_2024": 619
+}

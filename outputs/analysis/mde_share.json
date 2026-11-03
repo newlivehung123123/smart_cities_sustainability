@@ -1,0 +1,17 @@
+{
+  "rule": "share",
+  "seed": 20261102,
+  "counts": {
+    "BRN": 3,
+    "IDN": 78,
+    "JPN": 99,
+    "KHM": 6,
+    "KOR": 32,
+    "LAO": 3,
+    "MMR": 6,
+    "MYS": 3,
+    "PHL": 14,
+    "THA": 38,
+    "VNM": 49
+  }
+}

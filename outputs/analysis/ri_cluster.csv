@@ -1,0 +1,3 @@
+outcome,est,perm_sd,p,n_perm,note
+ln_pm25,0.009968951980699617,0.011728085883719836,0.39760239760239763,1000,"provinces permuted within economies, district years drawn from the matched province"
+ln_no2,-0.0966844261248174,0.022531566266045376,0.000999000999000999,1000,"provinces permuted within economies, district years drawn from the matched province"

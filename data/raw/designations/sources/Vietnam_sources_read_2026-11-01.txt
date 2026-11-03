@@ -1,0 +1,40 @@
+Sources for Vietnam, read 1 Nov 2026. No designation list is built for Vietnam: no national government list naming smart
+city places was found. Vietnam's treated places are the three ASEAN Smart Cities Network members in ascn.csv (Hanoi, Ho
+Chi Minh City, Da Nang, 2018). Saved copies are in vietnam_saved/ (PDF or html with a txt copy).
+
+[1] Decision 950/QĐ-TTg, approving the scheme for sustainable smart urban development 2018 to 2025 with orientation to 2030.
+Official text as published by Quang Trung Software City (a state enterprise of Ho Chi Minh City),
+https://www.qtsc.com.vn/uploads/files/2018/08/07/Quyet-dinh-950-cua-Thu-tuong-de-an-phat-trien-DTTM-ben-vung-VN-2018-2025-va-dinh-huong-den-2030.pdf
+(saved as QD950_2018_qtsc.pdf). "Số: 950/QĐ-TTg Hà Nội, ngày 01 tháng 08 năm 2018".
+Targets to 2025: "Thực hiện giai đoạn 1 thí điểm phát triển đô thị thông minh"; "Hỗ trợ ít nhất 6 đô thị/6 vùng kinh tế
+phê duyệt Đề án tổng thể về phát triển đô thị thông minh"; "tại tối thiểu 3 đô thị từ loại II trở lên". No place is named
+for the pilot phase.
+Orientation to 2030: "Hình thành các chuỗi đô thị thông minh khu vực phía Bắc, miền Trung, phía Nam và vùng đồng bằng sông
+Cửu Long, lấy thành phố Hà Nội, thành phố Hồ Chí Minh, thành phố Đà Nẵng, thành phố Cần Thơ là hạt nhân".
+Tasks: the Ministry of Construction is to "lựa chọn, trình cấp có thẩm quyền phê duyệt khu vực thực hiện thí điểm và
+chương trình, kế hoạch thực hiện thí điểm", that is, pilot areas were to be selected and approved later.
+
+[2] VnEconomy, 07/02/2023, https://vneconomy.vn/tang-cuong-thi-diem-do-thi-thong-minh-tai-dia-phuong.htm (saved as
+vneconomy_2023-02-07.html), the Ministry of Construction's answer to a National Assembly deputy: "Đến nay, cả nước có
+48/63 tỉnh, thành phố trực thuộc TW đã hoặc đang triển khai xây dựng đề án phát triển đô thị thông minh. Cụ thể 34/48
+tỉnh, thành phố trực thuộc TW đã phê duyệt Đề án phát triển đô thị thông minh"; "19 tỉnh đang triển khai thí điểm dịch vụ
+đô thị thông minh theo hướng dẫn của Bộ Thông tin và Truyền thông"; "Bộ Xây dựng sẽ tăng cường công tác triển khai thí
+điểm đô thị thông minh tại các địa phương". The provinces named are examples, not a list.
+
+[3] Đại biểu Nhân dân, 13/08/2025,
+https://daibieunhandan.vn/bo-xay-dung-tong-ket-7-nam-trien-khai-de-an-phat-trien-do-thi-thong-minh-10383114.html (saved
+as daibieunhandan_2025-08-13.html), the Ministry of Construction's seven-year review of the scheme: "đã có 37 tỉnh, thành
+phố ban hành đề án, kế hoạch phát triển đô thị thông minh riêng"; the report names provinces as examples (Thừa Thiên Huế,
+Bình Dương, Đà Nẵng, Quảng Ninh, TP. Hồ Chí Minh) and names no pilot area approved under the scheme.
+
+Coding notes:
+- Vietnam has a national framework but no national selection of places before 2025. Smart city schemes were adopted by
+  each province on its own (34 approved by February 2023, 37 by August 2025), which is self-selection, not designation,
+  and the dates and areas of these provincial schemes are not collected. The four "hạt nhân" cities of 2030 are an
+  orientation, not a designation with a programme, and are not coded.
+- Vietnam stays in the panel: its ASEAN Smart Cities Network members are treated from 2018 and its other urban districts
+  are not-yet or never treated under national designation. Because most provinces adopted their own schemes from about
+  2019, Vietnam's untreated districts are weaker controls; a sensitivity check drops Vietnam's untreated districts from
+  the control group.
+- The 19 provinces piloting smart city services under the information ministry's guidance are not named in any source
+  found and are not coded.

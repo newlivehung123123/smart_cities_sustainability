@@ -1,0 +1,135 @@
+{
+  "annual_ln_pm25_21272760B53444952688840_2015_1576": {
+    "donors": 1576,
+    "dropped": 45,
+    "dropped_by_economy": {
+      "MYS": 44,
+      "IDN": 1
+    }
+  },
+  "annual_ln_pm25_21272760B53444952688840_2015_1391": {
+    "donors": 1391,
+    "dropped": 45,
+    "dropped_by_economy": {
+      "MYS": 44,
+      "IDN": 1
+    }
+  },
+  "annual_ln_no2_21272760B53444952688840_2015_1576": {
+    "donors": 1576,
+    "dropped": 101,
+    "dropped_by_economy": {
+      "MYS": 44,
+      "IDN": 30,
+      "MMR": 13,
+      "PHL": 5,
+      "VNM": 3,
+      "JPN": 2,
+      "TWN": 2,
+      "LAO": 1,
+      "THA": 1
+    }
+  },
+  "annual_ln_no2_21272760B53444952688840_2015_1391": {
+    "donors": 1391,
+    "dropped": 99,
+    "dropped_by_economy": {
+      "MYS": 44,
+      "IDN": 30,
+      "MMR": 13,
+      "PHL": 5,
+      "VNM": 3,
+      "JPN": 2,
+      "LAO": 1,
+      "THA": 1
+    }
+  },
+  "annual_ln_pm25_OSM-r913110_2018_1576": {
+    "donors": 1576,
+    "dropped": 44,
+    "dropped_by_economy": {
+      "MYS": 44
+    }
+  },
+  "annual_ln_pm25_OSM-r913110_2018_1391": {
+    "donors": 1391,
+    "dropped": 44,
+    "dropped_by_economy": {
+      "MYS": 44
+    }
+  },
+  "annual_ln_pm25_OSM-r913110_2015_1576": {
+    "donors": 1576,
+    "dropped": 45,
+    "dropped_by_economy": {
+      "MYS": 44,
+      "IDN": 1
+    }
+  },
+  "annual_ln_no2_OSM-r913110_2018_1576": {
+    "donors": 1576,
+    "dropped": 101,
+    "dropped_by_economy": {
+      "MYS": 44,
+      "IDN": 30,
+      "MMR": 13,
+      "PHL": 5,
+      "VNM": 3,
+      "JPN": 2,
+      "TWN": 2,
+      "LAO": 1,
+      "THA": 1
+    }
+  },
+  "annual_ln_no2_OSM-r913110_2018_1391": {
+    "donors": 1391,
+    "dropped": 99,
+    "dropped_by_economy": {
+      "MYS": 44,
+      "IDN": 30,
+      "MMR": 13,
+      "PHL": 5,
+      "VNM": 3,
+      "JPN": 2,
+      "LAO": 1,
+      "THA": 1
+    }
+  },
+  "annual_ln_no2_OSM-r913110_2015_1576": {
+    "donors": 1576,
+    "dropped": 101,
+    "dropped_by_economy": {
+      "MYS": 44,
+      "IDN": 30,
+      "MMR": 13,
+      "PHL": 5,
+      "VNM": 3,
+      "JPN": 2,
+      "TWN": 2,
+      "LAO": 1,
+      "THA": 1
+    }
+  },
+  "monthly_ln_pm25_21272760B53444952688840_2015_1576": {
+    "donors": 1576,
+    "dropped": 45,
+    "dropped_by_economy": {
+      "MYS": 44,
+      "IDN": 1
+    }
+  },
+  "monthly_ln_no2_21272760B53444952688840_2015_1576": {
+    "donors": 1576,
+    "dropped": 99,
+    "dropped_by_economy": {
+      "MYS": 44,
+      "IDN": 30,
+      "MMR": 12,
+      "PHL": 5,
+      "VNM": 3,
+      "JPN": 2,
+      "TWN": 2,
+      "LAO": 1
+    }
+  }
+}

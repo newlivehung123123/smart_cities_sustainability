@@ -1,0 +1,43 @@
+Sources for Taiwan, read 1 Nov 2026. No designation list is built for Taiwan: its national smart city programme names no
+place and selects no place. scripts/designations/09_taiwan.py reads the saved text (taiwan_saved/*.txt, made from the PDF
+or html saved the same day), checks the passages and counts quoted below and writes no file.
+Taiwan is not an ASEAN member, so it has no ASEAN Smart Cities Network member in ascn.csv.
+
+[1] Smart City Taiwan case book, "智慧城鄉生活應用發展計畫 Smart City Taiwan 案例集", file name
+"智慧城鄉生活應用發展計畫案例成果集6.pdf", on the Ministry of Digital Affairs file server,
+https://www-api.moda.gov.tw/File/Get/adi/zh-tw/5BzB5UdLDqgv1PZ (saved as moda_smart_city_case_book_6.pdf).
+Item dated 2019.10.04 (Smart City Business, Opportunities in Taiwan, issue 2): "工業局自2018年開始推行「普及智慧城鄉生活
+應用計畫」，透過創新推動模式帶動產業與地方政府合作投入智慧城鄉發展，並期望能在未來將技術輸出國外。"
+Annex "補助計畫清單" (from PDF page 24): 268 approved grants with the columns 核定日期 分類 公司名稱 計畫名稱. The grantee is a
+firm or a group of firms; the list has no county column. Approvals by year: 2018 141 (創新服務類 86, 地方創新類 55),
+2019 29 (17, 12), 2020 53 (20, 33), 2021 17 (地方場域試煉暨輸出國際), 2023 18 (地方試煉暨國際合作), 2025 10
+(跨域整合暨創新試煉).
+The 55 local innovation projects (地方創新類) of 2018 were approved between 13 July and 6 September 2018. Their titles name
+16 of the 22 counties and cities (for example 宜蘭縣路邊停車資訊服務, 打造花蓮智慧觀光, 南投智慧生活計畫, 新北AI防護城,
+基隆智慧市港, 馬祖地區智慧就診); 28 titles name no county. Kaohsiung ("雄健康") and Chiayi ("嘉驛") appear only in shortened
+forms and are not counted. First year a county or city is named in a local project title (any category except 創新服務類):
+2018 for 16; Kaohsiung, Penghu (智慧菊島) and Kinmen 2019; Taipei City and Chiayi County 2020; Miaoli never.
+
+[2] Executive Yuan release, "政院召開「智慧城鄉溝通平台會議」 智慧停車、防救災、健康照護等成果亮眼", "日期：108-11-13" (13 Nov
+2019), https://www.ey.gov.tw/Page/9277F759E41CCD91/4ef81729-d384-4cd0-beb1-c359ba31c2c2 (saved as ey_2019-11-13.html):
+"行政院科技會報辦公室今（13）日召開「智慧城鄉溝通平台第九次會議」，邀集22個地方縣市政府、11個中央部會代表，以及參與經濟部
+工業局普及智慧城鄉生活應用計畫的業者，齊聚一堂交流近2年我國智慧城鄉發展成果".
+
+[3] Executive Yuan release, "政院召開第十次「智慧城鄉溝通平台會議」 交流智慧城鄉推動成果", "日期：109-07-22" (22 Jul 2020),
+https://www.ey.gov.tw/Page/9277F759E41CCD91/536f283d-14dc-40f2-a554-dfed135e59c4 (saved as ey_2020-07-22.html):
+"召開「智慧城鄉溝通平台第十次會議」，邀集22個地方縣市政府與相關中央部會代表"; the meeting opened with a presentation by the
+Taipei City Government ("本次會議由台北市政府分享"); "經濟部工業局「普及智慧城鄉生活應用計畫」，目前已累計224案例、295業者投入".
+
+Coding notes:
+- The programme funds firms to run projects with local governments. It names no place as a smart city, and every one of
+  Taiwan's 22 counties and cities sits on the Executive Yuan platform that runs it (sources 2 and 3). Taiwan is therefore
+  coded as a nationwide programme from 2018, not as a place designation, and no rows are written.
+- Under economy-by-year fixed effects a programme that reaches all of an economy's units in the same year is absorbed by
+  the economy-year effects. Taiwan has no designated place, so it adds no identifying variation to the main estimate:
+  its districts are never treated, and their untreated observations inform only Taiwan's own fixed effects.
+- No county-level staggered coding is built from the annex. 28 of the 55 local titles of 2018 name no county, so the first
+  year a county is named measures title wording, not when the county joined; Taipei, first named in 2020, already sat on
+  the platform with all 22 local governments in 2019 (source 2).
+- Taiwan's districts stay in the donor pool for the synthetic control and synthetic difference-in-differences estimates for
+  Singapore and Hong Kong, because no place in Taiwan is designated. Every county took part in a national smart city
+  programme from 2018, so a sensitivity check drops Taiwan's districts from the donor pool.
